@@ -3,7 +3,7 @@
 ```text
 1.   递归分析的所有与UI UE UX 相关的内容主题 
     比如 web app  移动端app  桌面app等
-    相关的形式论证证明和最新的前端框架架构知识 
+    相关的形式论证证明和最新的前端框架架构知识  参考wiki和最新的前端框架架构知识
     或者是最成熟的方案和软件堆栈等
     如 webassembly js css html typescript react vue angular flutter等等
     
