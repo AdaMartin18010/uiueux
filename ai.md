@@ -1,11 +1,11 @@
 # ai
 
 ```text
-1.   分析./UIUEUX/Matter 目录下的所有递归子目录中  
-    所有文件的所有内容 梳理各个主题的相关内容知识 分析论证的思路  
-
-    只保留与UI UE UX 相关的内容主题 比如 web app  移动端app  桌面app等
-    相关的形式论证证明和最新的前端框架架构知识 或者是最成熟的方案和软件堆栈等
+1.   递归分析的所有与UI UE UX 相关的内容主题 
+    比如 web app  移动端app  桌面app等
+    相关的形式论证证明和最新的前端框架架构知识 
+    或者是最成熟的方案和软件堆栈等
+    如 webassembly js css html typescript react vue angular flutter等等
     
 2.   哲科的批判分析所有内容的相关性 知识 梳理分类 重构到 ./UIUEUX/Refactor 目录下
     建立各个梳理后的主题 目录  
