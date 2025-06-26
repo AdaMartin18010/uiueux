@@ -19,3 +19,12 @@
 3.4 [TypeScript-JavaScript](./3.4 TypeScript-JavaScript.md)
 
 3.5 [Dart-Flutter](./3.5 Dart-Flutter.md)
+
+---
+
+## 相关主题推荐阅读
+
+- [2.3 Rust前端全栈](../2.技术栈与框架/2.3 Rust前端全栈.md)
+- [2.4 Haskell-Scala前端](../2.技术栈与框架/2.4 Haskell-Scala前端.md)
+- [3.4 TypeScript-JavaScript](./3.4 TypeScript-JavaScript.md)
+- [5.4 代码示例与形式化证明](../5.技术规范与标准/5.4 代码示例与形式化证明.md)
