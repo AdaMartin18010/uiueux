@@ -1,6 +1,6 @@
 # Refactor 自动化工具
 
-[返回Refactor总览](../README.md)
+[返回Refactor总览](README.md)
 
 > 本目录包含 Refactor 知识体系的自动化工具，用于生成目录结构、检查链接、格式化文档等。
 
