@@ -1,20 +1,20 @@
 {
-  "total_files": 51,
+  "total_files": 52,
   "total_dirs": 9,
-  "total_lines": 15854,
-  "broken_links": 121,
+  "total_lines": 15609,
+  "broken_links": 516,
   "missing_files": 0,
-  "format_issues": 7,
+  "format_issues": 2,
   "sections": {
     "1": {
       "name": "1.终端类型",
       "files": 5,
-      "lines": 2146,
+      "lines": 2140,
       "subsections": {
         "1.1": {
           "name": "1.1 Web端.md",
           "files": 1,
-          "lines": 725
+          "lines": 723
         },
         "1.2": {
           "name": "1.2 移动端.md",
@@ -36,17 +36,17 @@
     "2": {
       "name": "2.技术栈与框架",
       "files": 8,
-      "lines": 3086,
+      "lines": 2994,
       "subsections": {
         "2.1": {
           "name": "2.1 前端主流框架.md",
           "files": 1,
-          "lines": 181
+          "lines": 173
         },
         "2.2": {
           "name": "2.2 跨端框架.md",
           "files": 1,
-          "lines": 142
+          "lines": 134
         },
         "2.3": {
           "name": "2.3 Rust前端全栈.md",
@@ -66,125 +66,125 @@
         "2.6": {
           "name": "2.6 Web核心技术.md",
           "files": 1,
-          "lines": 316
+          "lines": 294
         },
         "2.7": {
           "name": "2.7 现代前端工程化.md",
           "files": 1,
-          "lines": 1628
+          "lines": 1576
         }
       }
     },
     "3": {
       "name": "3.编程语言范式",
       "files": 6,
-      "lines": 2397,
+      "lines": 2317,
       "subsections": {
         "3.1": {
           "name": "3.1 Rust.md",
           "files": 1,
-          "lines": 273
+          "lines": 265
         },
         "3.2": {
           "name": "3.2 Haskell.md",
           "files": 1,
-          "lines": 340
+          "lines": 332
         },
         "3.3": {
           "name": "3.3 Scala.md",
           "files": 1,
-          "lines": 266
+          "lines": 256
         },
         "3.4": {
           "name": "3.4 TypeScript-JavaScript.md",
           "files": 1,
-          "lines": 1019
+          "lines": 975
         },
         "3.5": {
           "name": "3.5 Dart-Flutter.md",
           "files": 1,
-          "lines": 297
+          "lines": 289
         }
       }
     },
     "4": {
       "name": "4.设计模式与架构",
       "files": 5,
-      "lines": 525,
+      "lines": 513,
       "subsections": {
         "4.1": {
           "name": "4.1 GoF设计模式.md",
           "files": 1,
-          "lines": 138
+          "lines": 136
         },
         "4.2": {
           "name": "4.2 结构型-行为型-创建型模式.md",
           "files": 1,
-          "lines": 64
+          "lines": 62
         },
         "4.3": {
           "name": "4.3 组件化与架构模式.md",
           "files": 1,
-          "lines": 55
+          "lines": 53
         },
         "4.4": {
           "name": "4.4 哲学与认知批判性分析.md",
           "files": 1,
-          "lines": 53
+          "lines": 51
         }
       }
     },
     "5": {
       "name": "5.技术规范与标准",
       "files": 5,
-      "lines": 1508,
+      "lines": 1440,
       "subsections": {
         "5.1": {
           "name": "5.1 UI-UE-UX设计规范.md",
           "files": 1,
-          "lines": 265
+          "lines": 253
         },
         "5.2": {
           "name": "5.2 可访问性与国际化.md",
           "files": 1,
-          "lines": 156
+          "lines": 150
         },
         "5.3": {
           "name": "5.3 性能优化与工程实践.md",
           "files": 1,
-          "lines": 704
+          "lines": 668
         },
         "5.4": {
           "name": "5.4 代码示例与形式化证明.md",
           "files": 1,
-          "lines": 142
+          "lines": 134
         }
       }
     },
     "6": {
       "name": "6.人工智能原理与算法",
       "files": 9,
-      "lines": 3574,
+      "lines": 3522,
       "subsections": {
         "6.1": {
           "name": "6.1 AI基础原理.md",
           "files": 1,
-          "lines": 518
+          "lines": 510
         },
         "6.2": {
           "name": "6.2 经典AI算法与模型.md",
           "files": 1,
-          "lines": 937
+          "lines": 927
         },
         "6.3": {
           "name": "6.3 现代深度学习与大模型.md",
           "files": 1,
-          "lines": 667
+          "lines": 659
         },
         "6.4": {
           "name": "6.4 AI工程实践与伦理.md",
           "files": 1,
-          "lines": 393
+          "lines": 373
         },
         "6.5": {
           "name": "6.5 AI与哲学.md",
@@ -209,5 +209,5 @@
       }
     }
   },
-  "last_updated": "2025-07-02T04:18:35.424551"
+  "last_updated": "2025-07-02T04:27:38.213624"
 }

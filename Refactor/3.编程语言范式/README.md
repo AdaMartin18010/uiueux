@@ -1,6 +1,6 @@
 # 3.编程语言范式
 
-[返回Refactor总览](../README.md)
+[返回Refactor总览](3.编程语言范式/../README.md)
 
 > 本文档为"3.编程语言范式"主题索引，所有内容均严格编号、树形结构、支持本地跳转。请遵循本地引用规范：
 >
@@ -27,59 +27,58 @@ graph TD
     A --> D[Web开发]
     A --> E[跨端开发]
     A --> F[类型系统]
-    
+
     B --> B1[Rust]
     B --> B2[内存安全]
     B --> B3[并发模型]
-    
+
     C --> C1[Haskell]
     C --> C2[Scala]
     C --> C3[纯函数]
-    
+
     D --> D1[TypeScript]
     D --> D2[JavaScript]
     D --> D3[WebAssembly]
-    
+
     E --> E1[Dart]
     E --> E2[Flutter]
     E --> E3[跨平台]
-    
+
     F --> F1[静态类型]
     F --> F2[类型推导]
     F --> F3[类型安全]
-```
-
+```text
 ## 目录结构
 
-3.1 [Rust](./3.1 Rust.md)
+3.1 [Rust](3.编程语言范式/3.1 Rust.md)
 
 - 所有权系统
 - 并发安全
 - 零成本抽象
 - WASM优化
 
-3.2 [Haskell](./3.2 Haskell.md)
+3.2 [Haskell](3.编程语言范式/3.2 Haskell.md)
 
 - 类型系统
 - 函数组合
 - 范畴论
 - 形式验证
 
-3.3 [Scala](./3.3 Scala.md)
+3.3 [Scala](3.编程语言范式/3.3 Scala.md)
 
 - 函数式特性
 - 类型系统
 - 并发模型
 - JVM优化
 
-3.4 [TypeScript-JavaScript](./3.4 TypeScript-JavaScript.md)
+3.4 [TypeScript-JavaScript](3.编程语言范式/3.4 TypeScript-JavaScript.md)
 
 - 类型系统
 - 异步编程
 - 装饰器
 - 工程实践
 
-3.5 [Dart-Flutter](./3.5 Dart-Flutter.md)
+3.5 [Dart-Flutter](3.编程语言范式/3.5 Dart-Flutter.md)
 
 - 语言特性
 - UI框架
@@ -87,23 +86,22 @@ graph TD
 - 性能优化
 
 ## 范式对比
-
 ```mermaid
 graph TD
     A[编程范式] --> B[命令式]
     A --> C[声明式]
     A --> D[函数式]
-    
+
     B --> B1[过程式]
     B --> B2[面向对象]
-    
+
     C --> C1[SQL]
     C --> C2[HTML]
-    
+
     D --> D1[纯函数]
     D --> D2[不可变性]
     D --> D3[高阶函数]
-    
+
     B1 --> E1[JavaScript]
     B2 --> E2[Dart]
     D1 --> E3[Haskell]
@@ -114,57 +112,57 @@ graph TD
 
 ### Web开发路径
 
-1. [TypeScript-JavaScript](./3.4 TypeScript-JavaScript.md)
-2. [Web核心技术](../2.技术栈与框架/2.6 Web核心技术.md)
-3. [现代前端工程化](../2.技术栈与框架/2.7 现代前端工程化.md)
+1. [TypeScript-JavaScript](3.编程语言范式/3.4 TypeScript-JavaScript.md)
+2. [Web核心技术](3.编程语言范式/../2.技术栈与框架/2.6 Web核心技术.md)
+3. [现代前端工程化](3.编程语言范式/../2.技术栈与框架/2.7 现代前端工程化.md)
 
 ### 系统编程路径
 
-1. [Rust](./3.1 Rust.md)
-2. [Rust前端全栈](../2.技术栈与框架/2.3 Rust前端全栈.md)
-3. [WebAssembly](../2.技术栈与框架/2.5 WebAssembly.md)
+1. [Rust](3.编程语言范式/3.1 Rust.md)
+2. [Rust前端全栈](3.编程语言范式/../2.技术栈与框架/2.3 Rust前端全栈.md)
+3. [WebAssembly](3.编程语言范式/../2.技术栈与框架/2.5 WebAssembly.md)
 
 ### 函数式编程路径
 
-1. [Haskell](./3.2 Haskell.md)
-2. [Scala](./3.3 Scala.md)
-3. [Haskell-Scala前端](../2.技术栈与框架/2.4 Haskell-Scala前端.md)
+1. [Haskell](3.编程语言范式/3.2 Haskell.md)
+2. [Scala](3.编程语言范式/3.3 Scala.md)
+3. [Haskell-Scala前端](3.编程语言范式/../2.技术栈与框架/2.4 Haskell-Scala前端.md)
 
 ### 跨端开发路径
 
-1. [Dart-Flutter](./3.5 Dart-Flutter.md)
-2. [跨端框架](../2.技术栈与框架/2.2 跨端框架.md)
-3. [移动端](../1.终端类型/1.2 移动端.md)
+1. [Dart-Flutter](3.编程语言范式/3.5 Dart-Flutter.md)
+2. [跨端框架](3.编程语言范式/../2.技术栈与框架/2.2 跨端框架.md)
+3. [移动端](3.编程语言范式/../1.终端类型/1.2 移动端.md)
 
 ## 主题关联
 
 ### Rust相关
 
-- [Rust](./3.1 Rust.md)
-- [Rust前端全栈](../2.技术栈与框架/2.3 Rust前端全栈.md)
-- [WebAssembly](../2.技术栈与框架/2.5 WebAssembly.md)
-- [性能优化与工程实践](../5.技术规范与标准/5.3 性能优化与工程实践.md)
+- [Rust](3.编程语言范式/3.1 Rust.md)
+- [Rust前端全栈](3.编程语言范式/../2.技术栈与框架/2.3 Rust前端全栈.md)
+- [WebAssembly](3.编程语言范式/../2.技术栈与框架/2.5 WebAssembly.md)
+- [性能优化与工程实践](3.编程语言范式/../5.技术规范与标准/5.3 性能优化与工程实践.md)
 
 ### 函数式编程相关
 
-- [Haskell](./3.2 Haskell.md)
-- [Scala](./3.3 Scala.md)
-- [Haskell-Scala前端](../2.技术栈与框架/2.4 Haskell-Scala前端.md)
-- [形式化证明](../5.技术规范与标准/5.4 代码示例与形式化证明.md)
+- [Haskell](3.编程语言范式/3.2 Haskell.md)
+- [Scala](3.编程语言范式/3.3 Scala.md)
+- [Haskell-Scala前端](3.编程语言范式/../2.技术栈与框架/2.4 Haskell-Scala前端.md)
+- [形式化证明](3.编程语言范式/../5.技术规范与标准/5.4 代码示例与形式化证明.md)
 
 ### Web开发相关
 
-- [TypeScript-JavaScript](./3.4 TypeScript-JavaScript.md)
-- [Web核心技术](../2.技术栈与框架/2.6 Web核心技术.md)
-- [前端主流框架](../2.技术栈与框架/2.1 前端主流框架.md)
-- [现代前端工程化](../2.技术栈与框架/2.7 现代前端工程化.md)
+- [TypeScript-JavaScript](3.编程语言范式/3.4 TypeScript-JavaScript.md)
+- [Web核心技术](3.编程语言范式/../2.技术栈与框架/2.6 Web核心技术.md)
+- [前端主流框架](3.编程语言范式/../2.技术栈与框架/2.1 前端主流框架.md)
+- [现代前端工程化](3.编程语言范式/../2.技术栈与框架/2.7 现代前端工程化.md)
 
 ### 跨端开发相关
 
-- [Dart-Flutter](./3.5 Dart-Flutter.md)
-- [跨端框架](../2.技术栈与框架/2.2 跨端框架.md)
-- [移动端](../1.终端类型/1.2 移动端.md)
-- [桌面端](../1.终端类型/1.3 桌面端.md)
+- [Dart-Flutter](3.编程语言范式/3.5 Dart-Flutter.md)
+- [跨端框架](3.编程语言范式/../2.技术栈与框架/2.2 跨端框架.md)
+- [移动端](3.编程语言范式/../1.终端类型/1.2 移动端.md)
+- [桌面端](3.编程语言范式/../1.终端类型/1.3 桌面端.md)
 
 ## 语言特性对比
 

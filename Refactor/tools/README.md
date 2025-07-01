@@ -7,20 +7,26 @@
 ## 工具列表
 
 ### 1. generate-toc.js
+
 主要的自动化工具，提供以下功能：
+
 - 生成目录结构
 - 更新 README.md
 - 检查链接有效性
 - 生成交叉引用索引
 
 ### 2. package.json
+
 工具依赖管理，包含：
+
 - 开发依赖
 - 脚本命令
 - 版本信息
 
 ### 3. CI/CD 配置
+
 GitHub Actions 工作流，提供：
+
 - 自动文档检查
 - 链接验证
 - 格式检查
@@ -29,17 +35,20 @@ GitHub Actions 工作流，提供：
 ## 快速开始
 
 ### 安装依赖
+
 ```bash
 cd Refactor/tools
 npm install
 ```
 
 ### 运行所有工具
+
 ```bash
 npm run all
 ```
 
 ### 单独运行工具
+
 ```bash
 # 生成 SUMMARY.md
 npm run toc
@@ -57,24 +66,28 @@ npm run refs
 ## 工具功能详解
 
 ### 目录生成
+
 - 自动扫描目录结构
 - 生成层级化的目录树
 - 支持 Markdown 格式输出
 - 自动更新导航链接
 
 ### 链接检查
+
 - 检查所有 Markdown 文件中的链接
 - 验证相对路径和绝对路径
 - 报告损坏的链接
 - 支持外部链接跳过
 
 ### 交叉引用
+
 - 提取文档关键词
 - 生成相关文档索引
 - 帮助发现相关内容
 - 支持多文档关联
 
 ### 格式检查
+
 - Markdown 语法检查
 - 代码格式验证
 - 链接格式验证
@@ -83,6 +96,7 @@ npm run refs
 ## 配置选项
 
 ### 目录扫描配置
+
 ```javascript
 // 在 generate-toc.js 中修改
 const config = {
@@ -94,6 +108,7 @@ const config = {
 ```
 
 ### 输出格式配置
+
 ```javascript
 // 自定义输出格式
 const outputFormats = {
@@ -107,14 +122,17 @@ const outputFormats = {
 ## CI/CD 集成
 
 ### GitHub Actions
+
 工作流文件：`.github/workflows/docs.yml`
 
 触发条件：
+
 - Push 到 main/develop 分支
 - Pull Request 到 main 分支
 - 每周定时检查
 
 执行步骤：
+
 1. 检查文档格式
 2. 验证链接有效性
 3. 生成目录结构
@@ -122,6 +140,7 @@ const outputFormats = {
 5. 部署到 GitHub Pages
 
 ### 本地开发
+
 ```bash
 # 安装依赖
 npm install
@@ -139,6 +158,7 @@ npm run all
 ## 自定义扩展
 
 ### 添加新的检查规则
+
 ```javascript
 // 在 generate-toc.js 中添加
 class CustomValidator {
@@ -153,6 +173,7 @@ class CustomValidator {
 ```
 
 ### 添加新的输出格式
+
 ```javascript
 // 添加新的生成器
 class CustomGenerator {
@@ -168,6 +189,7 @@ class CustomGenerator {
 ### 常见问题
 
 #### 1. 链接检查失败
+
 ```bash
 # 检查文件路径
 ls -la Refactor/
@@ -177,6 +199,7 @@ node generate-toc.js links
 ```
 
 #### 2. 目录生成不完整
+
 ```bash
 # 检查目录权限
 chmod -R 755 Refactor/
@@ -186,6 +209,7 @@ node generate-toc.js toc
 ```
 
 #### 3. CI/CD 失败
+
 ```bash
 # 检查 GitHub Actions 日志
 # 验证 secrets 配置
@@ -193,6 +217,7 @@ node generate-toc.js toc
 ```
 
 ### 调试模式
+
 ```bash
 # 启用详细日志
 DEBUG=* node generate-toc.js
@@ -204,6 +229,7 @@ node generate-toc.js --file=README.md
 ## 贡献指南
 
 ### 添加新功能
+
 1. Fork 项目
 2. 创建功能分支
 3. 实现新功能
@@ -211,12 +237,14 @@ node generate-toc.js --file=README.md
 5. 提交 Pull Request
 
 ### 报告问题
+
 1. 检查现有 Issues
 2. 创建新的 Issue
 3. 提供详细描述
 4. 附上错误日志
 
 ### 代码规范
+
 - 使用 ES6+ 语法
 - 添加 JSDoc 注释
 - 遵循 ESLint 规则
@@ -225,12 +253,14 @@ node generate-toc.js --file=README.md
 ## 更新日志
 
 ### v1.0.0 (2024-01-01)
+
 - 初始版本发布
 - 基础目录生成功能
 - 链接检查功能
 - CI/CD 集成
 
 ### 计划功能
+
 - [ ] 支持更多文档格式
 - [ ] 添加可视化图表
 - [ ] 集成 AI 辅助功能
@@ -238,4 +268,4 @@ node generate-toc.js --file=README.md
 
 ---
 
-> 如有问题或建议，请提交 Issue 或 Pull Request。 
+> 如有问题或建议，请提交 Issue 或 Pull Request。
