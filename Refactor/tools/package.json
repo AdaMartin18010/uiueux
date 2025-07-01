@@ -1,0 +1,32 @@
+{
+  "name": "refactor-tools",
+  "version": "1.0.0",
+  "description": "Refactor 知识体系自动化工具",
+  "main": "generate-toc.js",
+  "scripts": {
+    "toc": "node generate-toc.js toc",
+    "readme": "node generate-toc.js readme",
+    "links": "node generate-toc.js links",
+    "refs": "node generate-toc.js refs",
+    "all": "node generate-toc.js",
+    "lint": "markdownlint ../**/*.md",
+    "format": "prettier --write ../**/*.md",
+    "check": "npm run lint && npm run links"
+  },
+  "keywords": [
+    "documentation",
+    "markdown",
+    "toc",
+    "automation",
+    "refactor"
+  ],
+  "author": "Refactor Team",
+  "license": "MIT",
+  "devDependencies": {
+    "markdownlint-cli": "^0.37.0",
+    "prettier": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 

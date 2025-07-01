@@ -1,0 +1,99 @@
+name: Documentation CI/CD
+
+on:
+  push:
+    branches: [ main, develop ]
+    paths: [ 'Refactor/**/*.md' ]
+  pull_request:
+    branches: [ main ]
+    paths: [ 'Refactor/**/*.md' ]
+  schedule:
+    # 每周一凌晨2点自动检查
+    - cron: '0 2 * * 1'
+
+jobs:
+  check-docs:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        cache-dependency-path: Refactor/tools/package-lock.json
+        
+    - name: Install dependencies
+      working-directory: Refactor/tools
+      run: npm ci
+      
+    - name: Check links
+      working-directory: Refactor/tools
+      run: npm run links
+      
+    - name: Lint markdown
+      working-directory: Refactor/tools
+      run: npm run lint
+      
+    - name: Format check
+      working-directory: Refactor/tools
+      run: npx prettier --check ../**/*.md
+
+  update-toc:
+    runs-on: ubuntu-latest
+    needs: check-docs
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        cache-dependency-path: Refactor/tools/package-lock.json
+        
+    - name: Install dependencies
+      working-directory: Refactor/tools
+      run: npm ci
+      
+    - name: Generate TOC
+      working-directory: Refactor/tools
+      run: npm run all
+      
+    - name: Commit changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -A
+        git diff --quiet && git diff --staged --quiet || git commit -m "docs: auto-update TOC and cross-references"
+        
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
+
+  deploy-docs:
+    runs-on: ubuntu-latest
+    needs: update-toc
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./Refactor
+        destination_dir: .
+        force_orphan: true 
