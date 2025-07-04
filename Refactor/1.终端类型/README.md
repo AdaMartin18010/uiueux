@@ -219,12 +219,14 @@ graph TD
 UI通用架构模型（如MVC、MVVM、MVP、Flux、Redux、Clean Architecture、VIPER等）为各终端类型提供了统一的架构基础：
 
 ### 跨端架构一致性
+
 - **Web端**：React/Vue的组件化架构与状态管理模式
 - **移动端**：Flutter的Widget树与状态管理，iOS的MVVM模式
 - **桌面端**：Electron的Web技术栈与原生API集成
 - **游戏端**：Unity的MVC模式与组件化设计
 
 ### 架构模式优势
+
 - **模块化**：清晰的职责分离，便于团队协作
 - **可维护性**：统一的代码结构，降低维护成本
 - **可扩展性**：灵活的架构设计，支持功能扩展
@@ -233,30 +235,35 @@ UI通用架构模型（如MVC、MVVM、MVP、Flux、Redux、Clean Architecture�
 ### 架构模式与终端特性集成
 
 **MVC/MVP模式**
+
 - Web端：React + Redux，Vue + Vuex，Angular + NgRx
 - 移动端：Flutter + BLoC，iOS + MVVM，Android + MVP
 - 桌面端：Electron + 分层架构，Tauri + 六边形架构
 - 游戏端：Unity + MVC，Unreal + 组件化架构
 
 **MVVM模式**
+
 - Web端：Vue 3 + Composition API，React + MobX
 - 移动端：Flutter + Riverpod，iOS + SwiftUI
 - 桌面端：WPF + MVVM，Electron + 响应式架构
 - 游戏端：Unity + 数据绑定，Unreal + 蓝图系统
 
 **Flux/Redux模式**
+
 - Web端：React + Redux Toolkit，Vue + Pinia
 - 移动端：Flutter + BLoC，React Native + Redux
 - 桌面端：Electron + 状态管理，Tauri + 状态同步
 - 游戏端：Unity + 状态机，Unreal + 游戏状态管理
 
 **Clean Architecture**
+
 - Web端：Next.js + DDD，Nuxt 3 + 特性切片
 - 移动端：Flutter + 分层架构，iOS + VIPER
 - 桌面端：Electron + 模块化，Tauri + 端口适配器
 - 游戏端：Unity + 领域驱动，Unreal + 模块化设计
 
 ### 相关技术栈
+
 - [前端主流框架](1.终端类型/../2.技术栈与框架/2.1 前端主流框架.md)
 - [跨端框架](1.终端类型/../2.技术栈与框架/2.2 跨端框架.md)
 - [组件化与架构模式](1.终端类型/../4.设计模式与架构/4.3 组件化与架构模式.md)
@@ -273,6 +280,7 @@ UI通用架构模型（如MVC、MVVM、MVP、Flux、Redux、Clean Architecture�
     E --> E1[原生集成]
     E --> E2[平台API]
     E --> E3[权限管理]
+
 ```
 
 ---
