@@ -54,7 +54,7 @@ graph TD
 - **性能与体验**：Core Web Vitals、PWA、Web Components、WebGPU
 - **跨端与融合**：Flutter、React Native、Tauri、Electron、小程序
 - **安全与隐私**：CSP、SameSite Cookie、HTTPS、Web3安全
-- **UI通用架构模型持续演进**：MVC、MVVM、MVP、Flux、Redux、Clean Architecture、VIPER等成为前端与AI工程的核心基础，推动分层、组件化、单向数据流与工程自动化（详见[4.3 组件化与架构模式](4.设计模式与架构/4.3 组件化与架构模式.md)）
+- **UI通用架构模型持续演进**：MVC、MVVM、MVP、Flux、Redux、Clean Architecture、VIPER等成为前端与AI工程的核心基础，推动分层、组件化、单向数据流与工程自动化，为AI驱动开发、AIGC UI、可解释性UI、智能状态管理等提供结构化支撑（详见[4.3 组件化与架构模式](4.设计模式与架构/4.3 组件化与架构模式.md)）
 
 ## 目录结构
 

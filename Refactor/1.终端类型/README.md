@@ -157,7 +157,7 @@ graph TD
 - [游戏端](1.终端类型/1.4 游戏端.md)
 - [Web核心技术](1.终端类型/../2.技术栈与框架/2.6 Web核心技术.md)
 - [性能优化与工程实践](1.终端类型/../5.技术规范与标准/5.3 性能优化与工程实践.md)
-- [组件化与架构模式](1.终端类型/../4.设计模式与架构/4.3 组件化与架构模式.md)
+- [组件化与架构模式（含UI通用架构模型）](1.终端类型/../4.设计模式与架构/4.3 组件化与架构模式.md)
 
 ## 终端特性对比
 
@@ -198,8 +198,69 @@ graph TD
     A --> E[平台适配]
 
     B --> B1[共享逻辑]
-    B --> B2[组件库]
-    B --> B3[工具链]
+    B --> B2[UI通用架构模型]
+    B --> B3[组件化设计]
+
+    C --> C1[渲染优化]
+    C --> C2[内存管理]
+    C --> C3[网络优化]
+
+    D --> D1[设计系统]
+    D --> D2[交互规范]
+    D --> D3[无障碍标准]
+
+    E --> E1[平台API]
+    E --> E2[设备适配]
+    E --> E3[性能调优]
+```
+
+## UI通用架构模型在终端开发中的应用
+
+UI通用架构模型（如MVC、MVVM、MVP、Flux、Redux、Clean Architecture、VIPER等）为各终端类型提供了统一的架构基础：
+
+### 跨端架构一致性
+- **Web端**：React/Vue的组件化架构与状态管理模式
+- **移动端**：Flutter的Widget树与状态管理，iOS的MVVM模式
+- **桌面端**：Electron的Web技术栈与原生API集成
+- **游戏端**：Unity的MVC模式与组件化设计
+
+### 架构模式优势
+- **模块化**：清晰的职责分离，便于团队协作
+- **可维护性**：统一的代码结构，降低维护成本
+- **可扩展性**：灵活的架构设计，支持功能扩展
+- **可测试性**：结构化的代码组织，便于单元测试
+
+### 架构模式与终端特性集成
+
+**MVC/MVP模式**
+- Web端：React + Redux，Vue + Vuex，Angular + NgRx
+- 移动端：Flutter + BLoC，iOS + MVVM，Android + MVP
+- 桌面端：Electron + 分层架构，Tauri + 六边形架构
+- 游戏端：Unity + MVC，Unreal + 组件化架构
+
+**MVVM模式**
+- Web端：Vue 3 + Composition API，React + MobX
+- 移动端：Flutter + Riverpod，iOS + SwiftUI
+- 桌面端：WPF + MVVM，Electron + 响应式架构
+- 游戏端：Unity + 数据绑定，Unreal + 蓝图系统
+
+**Flux/Redux模式**
+- Web端：React + Redux Toolkit，Vue + Pinia
+- 移动端：Flutter + BLoC，React Native + Redux
+- 桌面端：Electron + 状态管理，Tauri + 状态同步
+- 游戏端：Unity + 状态机，Unreal + 游戏状态管理
+
+**Clean Architecture**
+- Web端：Next.js + DDD，Nuxt 3 + 特性切片
+- 移动端：Flutter + 分层架构，iOS + VIPER
+- 桌面端：Electron + 模块化，Tauri + 端口适配器
+- 游戏端：Unity + 领域驱动，Unreal + 模块化设计
+
+### 相关技术栈
+- [前端主流框架](1.终端类型/../2.技术栈与框架/2.1 前端主流框架.md)
+- [跨端框架](1.终端类型/../2.技术栈与框架/2.2 跨端框架.md)
+- [组件化与架构模式](1.终端类型/../4.设计模式与架构/4.3 组件化与架构模式.md)
+- [现代前端工程化](1.终端类型/../2.技术栈与框架/2.7 现代前端工程化.md)
 
     C --> C1[平台优化]
     C --> C2[资源管理]
