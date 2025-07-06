@@ -199,21 +199,25 @@ graph TD
 ### 架构模式与语言特性
 
 **Rust系统编程架构**
+
 - 所有权系统：内存安全，无数据竞争
 - 零成本抽象：高性能架构实现
 - 类型安全：编译时错误检测
 
 **函数式编程架构**
+
 - 纯函数：无副作用，可预测性
 - 不可变性：状态管理一致性
 - 高阶函数：抽象层次提升
 
 **TypeScript类型系统架构**
+
 - 渐进式类型：灵活性与安全性平衡
 - 结构类型：接口定义，契约编程
 - 类型推导：开发体验优化
 
 **Dart跨平台架构**
+
 - 健全类型：空安全，类型安全
 - 异步编程：并发处理能力
 - 跨平台：统一开发体验
@@ -221,30 +225,35 @@ graph TD
 ### 架构模式与语言范式映射
 
 **MVC模式实现**
+
 - Rust：所有权分离，生命周期管理
 - Haskell：纯函数Model，类型安全View
 - TypeScript：接口定义，类型约束
 - Dart：类层次结构，异步处理
 
 **MVVM模式实现**
+
 - Rust：响应式系统，状态管理
 - Haskell：FRP范式，信号驱动
 - TypeScript：装饰器，响应式绑定
 - Dart：Stream，响应式UI
 
 **Flux/Redux模式实现**
+
 - Rust：不可变状态，消息传递
 - Haskell：单子，状态封装
 - TypeScript：类型安全，状态管理
 - Dart：Provider，状态注入
 
 **相关技术栈**
+
 - Rust：Yew、Leptos、Dioxus、Tauri
 - Haskell：Reflex-DOM、Miso、GHCJS
 - TypeScript：React、Vue、Angular、Next.js
 - Dart：Flutter、Provider、Riverpod
 
 **相关主题**
+
 - [组件化与架构模式](../4.设计模式与架构/4.3 组件化与架构模式.md)
 - [GoF设计模式](../4.设计模式与架构/4.1 GoF设计模式.md)
 - [现代前端工程化](../2.技术栈与框架/2.7 现代前端工程化.md)

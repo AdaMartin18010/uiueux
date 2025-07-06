@@ -213,22 +213,26 @@ graph TD
 ### 架构模式与设计原则
 
 **MVC架构模式**
+
 - Model：数据层，业务逻辑
 - View：表现层，用户界面
 - Controller：控制层，协调Model和View
 
 **MVVM架构模式**
+
 - Model：数据模型，业务逻辑
 - View：视图层，用户界面
 - ViewModel：视图模型，状态管理
 
 **Flux/Redux架构模式**
+
 - Store：状态存储，单一数据源
 - Action：动作，描述状态变更
 - Reducer：纯函数，状态转换
 - View：视图层，响应状态变化
 
 **Clean Architecture**
+
 - Entities：实体，业务核心
 - Use Cases：用例，业务规则
 - Interface Adapters：接口适配器
@@ -237,21 +241,25 @@ graph TD
 ### 设计模式与架构模式映射
 
 **创建型模式**
+
 - 工厂模式：组件创建
 - 单例模式：状态管理
 - 建造者模式：复杂对象构建
 
 **结构型模式**
+
 - 适配器模式：接口适配
 - 装饰器模式：功能扩展
 - 代理模式：访问控制
 
 **行为型模式**
+
 - 观察者模式：事件通知
 - 策略模式：算法选择
 - 命令模式：操作封装
 
 **相关技术栈**
+
 - 前端框架：React、Vue、Angular、Svelte
 - 状态管理：Redux、MobX、Zustand、Pinia
 - 架构模式：MVC、MVVM、Flux、Clean Architecture
@@ -259,6 +267,7 @@ graph TD
 - 工程实践：SOLID原则、DRY、KISS
 
 **相关主题**
+
 - [组件化与架构模式](4.3 组件化与架构模式.md)
 - [GoF设计模式](4.1 GoF设计模式.md)
 - [现代前端工程化](../2.技术栈与框架/2.7 现代前端工程化.md)
@@ -269,22 +278,26 @@ graph TD
 ### 架构模式与设计原则
 
 **MVC架构模式**
+
 - Model：数据层，业务逻辑
 - View：表现层，用户界面
 - Controller：控制层，协调Model和View
 
 **MVVM架构模式**
+
 - Model：数据模型，业务逻辑
 - View：视图层，用户界面
 - ViewModel：视图模型，状态管理
 
 **Flux/Redux架构模式**
+
 - Store：状态存储，单一数据源
 - Action：动作，描述状态变更
 - Reducer：纯函数，状态转换
 - View：视图层，响应状态变化
 
 **Clean Architecture**
+
 - Entities：实体，业务核心
 - Use Cases：用例，业务规则
 - Interface Adapters：接口适配器
@@ -293,21 +306,25 @@ graph TD
 ### 设计模式与架构模式映射
 
 **创建型模式**
+
 - 工厂模式：组件创建
 - 单例模式：状态管理
 - 建造者模式：复杂对象构建
 
 **结构型模式**
+
 - 适配器模式：接口适配
 - 装饰器模式：功能扩展
 - 代理模式：访问控制
 
 **行为型模式**
+
 - 观察者模式：事件通知
 - 策略模式：算法选择
 - 命令模式：操作封装
 
 **相关技术栈**
+
 - 前端框架：React、Vue、Angular、Svelte
 - 状态管理：Redux、MobX、Zustand、Pinia
 - 架构模式：MVC、MVVM、Flux、Clean Architecture
@@ -315,6 +332,7 @@ graph TD
 - 工程实践：SOLID原则、DRY、KISS
 
 **相关主题**
+
 - [组件化与架构模式](4.3 组件化与架构模式.md)
 - [GoF设计模式](4.1 GoF设计模式.md)
 - [现代前端工程化](../2.技术栈与框架/2.7 现代前端工程化.md)

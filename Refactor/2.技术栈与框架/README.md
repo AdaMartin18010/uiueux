@@ -64,6 +64,19 @@ graph TD
 - 桌面应用
 - 小程序开发
 
+[UI技术栈与框架全面分析](2.技术栈与框架/UI技术栈与框架全面分析.md)
+
+- 设计软件与工具
+- 前端框架与库
+- 跨端开发框架
+- 动画与交互库
+- 3D/AR/VR技术
+- 低代码/无代码平台
+- 设计系统与组件库
+- 性能优化工具
+- 无障碍与国际化
+- 未来发展趋势
+
 2.3 [Rust前端全栈](2.技术栈与框架/2.3 Rust前端全栈.md)
 
 - Rust + WebAssembly
@@ -203,21 +216,25 @@ graph TD
 ### 架构模式与框架集成
 
 **MVC/MVP模式**
+
 - React + Redux (Model-View-Controller)
 - Vue + Vuex (Model-View-ViewModel)
 - Angular + NgRx (Model-View-Controller)
 
 **MVVM模式**
+
 - Vue 3 + Composition API
 - React + MobX
 - Svelte + Stores
 
 **Flux/Redux模式**
+
 - React + Redux Toolkit
 - Vue + Pinia
 - Angular + NgRx
 
 **Clean Architecture**
+
 - Next.js + Domain-Driven Design
 - Nuxt 3 + Feature-Sliced Design
 - Tauri + Hexagonal Architecture
@@ -225,16 +242,19 @@ graph TD
 ### 跨端架构一致性
 
 **统一状态管理**
+
 - Flutter + Provider/Riverpod
 - React Native + Redux Toolkit
 - Tauri + Tauri Store
 
 **组件化架构**
+
 - Web Components + Lit
 - Flutter Widgets
 - React Native Components
 
 **微前端架构**
+
 - Module Federation
 - Single-SPA
 - qiankun
@@ -242,21 +262,25 @@ graph TD
 ### 相关技术栈
 
 **状态管理库**
+
 - Redux Toolkit、Zustand、Jotai
 - Vuex、Pinia、VueUse
 - NgRx、Akita、NGXS
 
 **路由管理**
+
 - React Router、TanStack Router
 - Vue Router、Nuxt Router
 - Angular Router
 
 **数据获取**
+
 - React Query、SWR
 - Vue Query、Composables
 - Angular HttpClient
 
 **相关主题**
+
 - [组件化与架构模式](../4.设计模式与架构/4.3 组件化与架构模式.md)
 - [GoF设计模式](../4.设计模式与架构/4.1 GoF设计模式.md)
 - [现代前端工程化](2.7 现代前端工程化.md)
