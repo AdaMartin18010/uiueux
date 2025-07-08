@@ -1,20 +1,20 @@
 {
-  "total_files": 52,
+  "total_files": 60,
   "total_dirs": 9,
-  "total_lines": 24515,
-  "broken_links": 606,
+  "total_lines": 34499,
+  "broken_links": 772,
   "missing_files": 0,
-  "format_issues": 4,
+  "format_issues": 0,
   "sections": {
     "1": {
       "name": "1.终端类型",
       "files": 5,
-      "lines": 2572,
+      "lines": 2567,
       "subsections": {
         "1.1": {
           "name": "1.1 Web端.md",
           "files": 1,
-          "lines": 803
+          "lines": 800
         },
         "1.2": {
           "name": "1.2 移动端.md",
@@ -35,13 +35,13 @@
     },
     "2": {
       "name": "2.技术栈与框架",
-      "files": 8,
-      "lines": 4369,
+      "files": 16,
+      "lines": 12680,
       "subsections": {
         "2.1": {
           "name": "2.1 前端主流框架.md",
           "files": 1,
-          "lines": 1080
+          "lines": 1075
         },
         "2.2": {
           "name": "2.2 跨端框架.md",
@@ -78,7 +78,7 @@
     "3": {
       "name": "3.编程语言范式",
       "files": 6,
-      "lines": 3669,
+      "lines": 3651,
       "subsections": {
         "3.1": {
           "name": "3.1 Rust.md",
@@ -110,7 +110,7 @@
     "4": {
       "name": "4.设计模式与架构",
       "files": 5,
-      "lines": 2579,
+      "lines": 2499,
       "subsections": {
         "4.1": {
           "name": "4.1 GoF设计模式.md",
@@ -125,7 +125,7 @@
         "4.3": {
           "name": "4.3 组件化与架构模式.md",
           "files": 1,
-          "lines": 1956
+          "lines": 1876
         },
         "4.4": {
           "name": "4.4 哲学与认知批判性分析.md",
@@ -137,22 +137,22 @@
     "5": {
       "name": "5.技术规范与标准",
       "files": 5,
-      "lines": 3640,
+      "lines": 3616,
       "subsections": {
         "5.1": {
           "name": "5.1 UI-UE-UX设计规范.md",
           "files": 1,
-          "lines": 1242
+          "lines": 1223
         },
         "5.2": {
           "name": "5.2 可访问性与国际化.md",
           "files": 1,
-          "lines": 623
+          "lines": 621
         },
         "5.3": {
           "name": "5.3 性能优化与工程实践.md",
           "files": 1,
-          "lines": 1328
+          "lines": 1327
         },
         "5.4": {
           "name": "5.4 代码示例与形式化证明.md",
@@ -164,7 +164,7 @@
     "6": {
       "name": "6.人工智能原理与算法",
       "files": 9,
-      "lines": 4481,
+      "lines": 4480,
       "subsections": {
         "6.1": {
           "name": "6.1 AI基础原理.md",
@@ -184,7 +184,7 @@
         "6.4": {
           "name": "6.4 AI工程实践与伦理.md",
           "files": 1,
-          "lines": 1221
+          "lines": 1220
         },
         "6.5": {
           "name": "6.5 AI与哲学.md",
@@ -209,5 +209,5 @@
       }
     }
   },
-  "last_updated": "2025-07-06T00:17:17.404508"
+  "last_updated": "2025-07-08T08:45:13.869593"
 }
