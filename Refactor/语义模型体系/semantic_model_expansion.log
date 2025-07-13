@@ -1,0 +1,103 @@
+2025-07-13 09:19:47,964 - INFO - 启动语义模型扩展器...
+2025-07-13 09:19:47,965 - INFO - 开始加载现有语义模型...
+2025-07-13 09:19:47,967 - INFO - 已加载模型: 1.UI语义模型
+2025-07-13 09:19:47,967 - INFO - 已加载模型: 2.架构语义模型
+2025-07-13 09:19:47,968 - INFO - 已加载模型: 3.Web应用语义模型
+2025-07-13 09:19:47,969 - INFO - 已加载模型: 4.AI语义模型
+2025-07-13 09:19:47,970 - INFO - 已加载模型: 5.形式化语义理论
+2025-07-13 09:19:47,971 - INFO - 已加载模型: 6.语义模型工具
+2025-07-13 09:19:47,971 - INFO - 已加载 6 个语义模型
+2025-07-13 09:19:47,971 - INFO - 开始递归扩展语义模型...
+2025-07-13 09:19:47,972 - INFO - 开始第 1 次迭代扩展...
+2025-07-13 09:19:47,972 - INFO - 分析结果: {'model_count': 6, 'domain_count': 33, 'concept_count': 0, 'relation_count': 0, 'constraint_count': 0, 'coverage_analysis': {'ui_coverage': 0.8, 'architecture_coverage': 0.7, 'web_coverage': 0.6, 'ai_coverage': 0.5, 'formal_coverage': 0.4, 'tool_coverage': 0.3}, 'complexity_analysis': {'max_concepts_per_domain': 0, 'max_relations_per_domain': 0, 'max_constraints_per_domain': 0, 'average_concepts_per_domain': 0, 'average_relations_per_domain': 0, 'average_constraints_per_domain': 0}, 'consistency_analysis': {'naming_consistency': True, 'structure_consistency': True, 'relation_consistency': True, 'constraint_consistency': True}}
+2025-07-13 09:19:47,972 - INFO - 生成了 8 个新概念
+2025-07-13 09:19:47,972 - INFO - 建立了 0 个映射关系
+2025-07-13 09:19:47,972 - INFO - 一致性验证结果: {'naming_consistency': True, 'structure_consistency': False, 'relation_consistency': True, 'constraint_consistency': True}
+2025-07-13 09:19:47,973 - INFO - 生成新的语义模型文档...
+2025-07-13 09:19:47,973 - INFO - 已生成扩展报告: 扩展报告.md
+2025-07-13 09:19:47,974 - INFO - 已生成概念索引: 概念索引.md
+2025-07-13 09:19:47,975 - INFO - 已生成映射关系图: 映射关系图.md
+2025-07-13 09:19:47,975 - INFO - 开始第 2 次迭代扩展...
+2025-07-13 09:19:47,975 - INFO - 分析结果: {'model_count': 6, 'domain_count': 33, 'concept_count': 0, 'relation_count': 0, 'constraint_count': 0, 'coverage_analysis': {'ui_coverage': 0.8, 'architecture_coverage': 0.7, 'web_coverage': 0.6, 'ai_coverage': 0.5, 'formal_coverage': 0.4, 'tool_coverage': 0.3}, 'complexity_analysis': {'max_concepts_per_domain': 0, 'max_relations_per_domain': 0, 'max_constraints_per_domain': 0, 'average_concepts_per_domain': 0, 'average_relations_per_domain': 0, 'average_constraints_per_domain': 0}, 'consistency_analysis': {'naming_consistency': True, 'structure_consistency': True, 'relation_consistency': True, 'constraint_consistency': True}}
+2025-07-13 09:19:47,975 - INFO - 生成了 8 个新概念
+2025-07-13 09:19:47,976 - INFO - 建立了 0 个映射关系
+2025-07-13 09:19:47,976 - INFO - 一致性验证结果: {'naming_consistency': True, 'structure_consistency': False, 'relation_consistency': True, 'constraint_consistency': True}
+2025-07-13 09:19:47,976 - INFO - 生成新的语义模型文档...
+2025-07-13 09:19:47,977 - INFO - 已生成扩展报告: 扩展报告.md
+2025-07-13 09:19:47,977 - INFO - 已生成概念索引: 概念索引.md
+2025-07-13 09:19:47,978 - INFO - 已生成映射关系图: 映射关系图.md
+2025-07-13 09:19:47,978 - INFO - 开始第 3 次迭代扩展...
+2025-07-13 09:19:47,978 - INFO - 分析结果: {'model_count': 6, 'domain_count': 33, 'concept_count': 0, 'relation_count': 0, 'constraint_count': 0, 'coverage_analysis': {'ui_coverage': 0.8, 'architecture_coverage': 0.7, 'web_coverage': 0.6, 'ai_coverage': 0.5, 'formal_coverage': 0.4, 'tool_coverage': 0.3}, 'complexity_analysis': {'max_concepts_per_domain': 0, 'max_relations_per_domain': 0, 'max_constraints_per_domain': 0, 'average_concepts_per_domain': 0, 'average_relations_per_domain': 0, 'average_constraints_per_domain': 0}, 'consistency_analysis': {'naming_consistency': True, 'structure_consistency': True, 'relation_consistency': True, 'constraint_consistency': True}}
+2025-07-13 09:19:47,979 - INFO - 生成了 8 个新概念
+2025-07-13 09:19:47,979 - INFO - 建立了 0 个映射关系
+2025-07-13 09:19:47,979 - INFO - 一致性验证结果: {'naming_consistency': True, 'structure_consistency': False, 'relation_consistency': True, 'constraint_consistency': True}
+2025-07-13 09:19:47,980 - INFO - 生成新的语义模型文档...
+2025-07-13 09:19:47,980 - INFO - 已生成扩展报告: 扩展报告.md
+2025-07-13 09:19:47,981 - INFO - 已生成概念索引: 概念索引.md
+2025-07-13 09:19:47,981 - INFO - 已生成映射关系图: 映射关系图.md
+2025-07-13 09:19:47,981 - INFO - 开始第 4 次迭代扩展...
+2025-07-13 09:19:47,982 - INFO - 分析结果: {'model_count': 6, 'domain_count': 33, 'concept_count': 0, 'relation_count': 0, 'constraint_count': 0, 'coverage_analysis': {'ui_coverage': 0.8, 'architecture_coverage': 0.7, 'web_coverage': 0.6, 'ai_coverage': 0.5, 'formal_coverage': 0.4, 'tool_coverage': 0.3}, 'complexity_analysis': {'max_concepts_per_domain': 0, 'max_relations_per_domain': 0, 'max_constraints_per_domain': 0, 'average_concepts_per_domain': 0, 'average_relations_per_domain': 0, 'average_constraints_per_domain': 0}, 'consistency_analysis': {'naming_consistency': True, 'structure_consistency': True, 'relation_consistency': True, 'constraint_consistency': True}}
+2025-07-13 09:19:47,982 - INFO - 生成了 8 个新概念
+2025-07-13 09:19:47,982 - INFO - 建立了 0 个映射关系
+2025-07-13 09:19:47,982 - INFO - 一致性验证结果: {'naming_consistency': True, 'structure_consistency': False, 'relation_consistency': True, 'constraint_consistency': True}
+2025-07-13 09:19:47,983 - INFO - 生成新的语义模型文档...
+2025-07-13 09:19:47,984 - INFO - 已生成扩展报告: 扩展报告.md
+2025-07-13 09:19:47,984 - INFO - 已生成概念索引: 概念索引.md
+2025-07-13 09:19:47,985 - INFO - 已生成映射关系图: 映射关系图.md
+2025-07-13 09:19:47,985 - INFO - 开始第 5 次迭代扩展...
+2025-07-13 09:19:47,986 - INFO - 分析结果: {'model_count': 6, 'domain_count': 33, 'concept_count': 0, 'relation_count': 0, 'constraint_count': 0, 'coverage_analysis': {'ui_coverage': 0.8, 'architecture_coverage': 0.7, 'web_coverage': 0.6, 'ai_coverage': 0.5, 'formal_coverage': 0.4, 'tool_coverage': 0.3}, 'complexity_analysis': {'max_concepts_per_domain': 0, 'max_relations_per_domain': 0, 'max_constraints_per_domain': 0, 'average_concepts_per_domain': 0, 'average_relations_per_domain': 0, 'average_constraints_per_domain': 0}, 'consistency_analysis': {'naming_consistency': True, 'structure_consistency': True, 'relation_consistency': True, 'constraint_consistency': True}}
+2025-07-13 09:19:47,986 - INFO - 生成了 8 个新概念
+2025-07-13 09:19:47,986 - INFO - 建立了 0 个映射关系
+2025-07-13 09:19:47,986 - INFO - 一致性验证结果: {'naming_consistency': True, 'structure_consistency': False, 'relation_consistency': True, 'constraint_consistency': True}
+2025-07-13 09:19:47,987 - INFO - 生成新的语义模型文档...
+2025-07-13 09:19:47,988 - INFO - 已生成扩展报告: 扩展报告.md
+2025-07-13 09:19:47,988 - INFO - 已生成概念索引: 概念索引.md
+2025-07-13 09:19:47,988 - INFO - 已生成映射关系图: 映射关系图.md
+2025-07-13 09:19:47,988 - INFO - 开始第 6 次迭代扩展...
+2025-07-13 09:19:47,989 - INFO - 分析结果: {'model_count': 6, 'domain_count': 33, 'concept_count': 0, 'relation_count': 0, 'constraint_count': 0, 'coverage_analysis': {'ui_coverage': 0.8, 'architecture_coverage': 0.7, 'web_coverage': 0.6, 'ai_coverage': 0.5, 'formal_coverage': 0.4, 'tool_coverage': 0.3}, 'complexity_analysis': {'max_concepts_per_domain': 0, 'max_relations_per_domain': 0, 'max_constraints_per_domain': 0, 'average_concepts_per_domain': 0, 'average_relations_per_domain': 0, 'average_constraints_per_domain': 0}, 'consistency_analysis': {'naming_consistency': True, 'structure_consistency': True, 'relation_consistency': True, 'constraint_consistency': True}}
+2025-07-13 09:19:47,989 - INFO - 生成了 8 个新概念
+2025-07-13 09:19:47,989 - INFO - 建立了 0 个映射关系
+2025-07-13 09:19:47,989 - INFO - 一致性验证结果: {'naming_consistency': True, 'structure_consistency': False, 'relation_consistency': True, 'constraint_consistency': True}
+2025-07-13 09:19:47,990 - INFO - 生成新的语义模型文档...
+2025-07-13 09:19:47,991 - INFO - 已生成扩展报告: 扩展报告.md
+2025-07-13 09:19:47,991 - INFO - 已生成概念索引: 概念索引.md
+2025-07-13 09:19:47,992 - INFO - 已生成映射关系图: 映射关系图.md
+2025-07-13 09:19:47,992 - INFO - 开始第 7 次迭代扩展...
+2025-07-13 09:19:47,992 - INFO - 分析结果: {'model_count': 6, 'domain_count': 33, 'concept_count': 0, 'relation_count': 0, 'constraint_count': 0, 'coverage_analysis': {'ui_coverage': 0.8, 'architecture_coverage': 0.7, 'web_coverage': 0.6, 'ai_coverage': 0.5, 'formal_coverage': 0.4, 'tool_coverage': 0.3}, 'complexity_analysis': {'max_concepts_per_domain': 0, 'max_relations_per_domain': 0, 'max_constraints_per_domain': 0, 'average_concepts_per_domain': 0, 'average_relations_per_domain': 0, 'average_constraints_per_domain': 0}, 'consistency_analysis': {'naming_consistency': True, 'structure_consistency': True, 'relation_consistency': True, 'constraint_consistency': True}}
+2025-07-13 09:19:47,992 - INFO - 生成了 8 个新概念
+2025-07-13 09:19:47,992 - INFO - 建立了 0 个映射关系
+2025-07-13 09:19:47,993 - INFO - 一致性验证结果: {'naming_consistency': True, 'structure_consistency': False, 'relation_consistency': True, 'constraint_consistency': True}
+2025-07-13 09:19:47,994 - INFO - 生成新的语义模型文档...
+2025-07-13 09:19:47,994 - INFO - 已生成扩展报告: 扩展报告.md
+2025-07-13 09:19:47,995 - INFO - 已生成概念索引: 概念索引.md
+2025-07-13 09:19:47,995 - INFO - 已生成映射关系图: 映射关系图.md
+2025-07-13 09:19:47,995 - INFO - 开始第 8 次迭代扩展...
+2025-07-13 09:19:47,995 - INFO - 分析结果: {'model_count': 6, 'domain_count': 33, 'concept_count': 0, 'relation_count': 0, 'constraint_count': 0, 'coverage_analysis': {'ui_coverage': 0.8, 'architecture_coverage': 0.7, 'web_coverage': 0.6, 'ai_coverage': 0.5, 'formal_coverage': 0.4, 'tool_coverage': 0.3}, 'complexity_analysis': {'max_concepts_per_domain': 0, 'max_relations_per_domain': 0, 'max_constraints_per_domain': 0, 'average_concepts_per_domain': 0, 'average_relations_per_domain': 0, 'average_constraints_per_domain': 0}, 'consistency_analysis': {'naming_consistency': True, 'structure_consistency': True, 'relation_consistency': True, 'constraint_consistency': True}}
+2025-07-13 09:19:47,995 - INFO - 生成了 8 个新概念
+2025-07-13 09:19:47,996 - INFO - 建立了 0 个映射关系
+2025-07-13 09:19:47,996 - INFO - 一致性验证结果: {'naming_consistency': True, 'structure_consistency': False, 'relation_consistency': True, 'constraint_consistency': True}
+2025-07-13 09:19:47,997 - INFO - 生成新的语义模型文档...
+2025-07-13 09:19:47,997 - INFO - 已生成扩展报告: 扩展报告.md
+2025-07-13 09:19:47,998 - INFO - 已生成概念索引: 概念索引.md
+2025-07-13 09:19:47,998 - INFO - 已生成映射关系图: 映射关系图.md
+2025-07-13 09:19:47,998 - INFO - 开始第 9 次迭代扩展...
+2025-07-13 09:19:47,999 - INFO - 分析结果: {'model_count': 6, 'domain_count': 33, 'concept_count': 0, 'relation_count': 0, 'constraint_count': 0, 'coverage_analysis': {'ui_coverage': 0.8, 'architecture_coverage': 0.7, 'web_coverage': 0.6, 'ai_coverage': 0.5, 'formal_coverage': 0.4, 'tool_coverage': 0.3}, 'complexity_analysis': {'max_concepts_per_domain': 0, 'max_relations_per_domain': 0, 'max_constraints_per_domain': 0, 'average_concepts_per_domain': 0, 'average_relations_per_domain': 0, 'average_constraints_per_domain': 0}, 'consistency_analysis': {'naming_consistency': True, 'structure_consistency': True, 'relation_consistency': True, 'constraint_consistency': True}}
+2025-07-13 09:19:47,999 - INFO - 生成了 8 个新概念
+2025-07-13 09:19:47,999 - INFO - 建立了 0 个映射关系
+2025-07-13 09:19:47,999 - INFO - 一致性验证结果: {'naming_consistency': True, 'structure_consistency': False, 'relation_consistency': True, 'constraint_consistency': True}
+2025-07-13 09:19:48,000 - INFO - 生成新的语义模型文档...
+2025-07-13 09:19:48,000 - INFO - 已生成扩展报告: 扩展报告.md
+2025-07-13 09:19:48,001 - INFO - 已生成概念索引: 概念索引.md
+2025-07-13 09:19:48,001 - INFO - 已生成映射关系图: 映射关系图.md
+2025-07-13 09:19:48,001 - INFO - 开始第 10 次迭代扩展...
+2025-07-13 09:19:48,002 - INFO - 分析结果: {'model_count': 6, 'domain_count': 33, 'concept_count': 0, 'relation_count': 0, 'constraint_count': 0, 'coverage_analysis': {'ui_coverage': 0.8, 'architecture_coverage': 0.7, 'web_coverage': 0.6, 'ai_coverage': 0.5, 'formal_coverage': 0.4, 'tool_coverage': 0.3}, 'complexity_analysis': {'max_concepts_per_domain': 0, 'max_relations_per_domain': 0, 'max_constraints_per_domain': 0, 'average_concepts_per_domain': 0, 'average_relations_per_domain': 0, 'average_constraints_per_domain': 0}, 'consistency_analysis': {'naming_consistency': True, 'structure_consistency': True, 'relation_consistency': True, 'constraint_consistency': True}}
+2025-07-13 09:19:48,002 - INFO - 生成了 8 个新概念
+2025-07-13 09:19:48,002 - INFO - 建立了 0 个映射关系
+2025-07-13 09:19:48,002 - INFO - 一致性验证结果: {'naming_consistency': True, 'structure_consistency': False, 'relation_consistency': True, 'constraint_consistency': True}
+2025-07-13 09:19:48,003 - INFO - 生成新的语义模型文档...
+2025-07-13 09:19:48,004 - INFO - 已生成扩展报告: 扩展报告.md
+2025-07-13 09:19:48,004 - INFO - 已生成概念索引: 概念索引.md
+2025-07-13 09:19:48,005 - INFO - 已生成映射关系图: 映射关系图.md
+2025-07-13 09:19:48,005 - INFO - 语义模型扩展完成，共进行 10 次迭代
+2025-07-13 09:19:48,008 - INFO - 已保存最终状态: final_state.json
+2025-07-13 09:19:48,008 - INFO - 语义模型扩展完成!

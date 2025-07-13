@@ -1,0 +1,522 @@
+[
+  {
+    "iteration": 1,
+    "timestamp": "2025-07-13T09:19:47.972752",
+    "analysis": {
+      "model_count": 6,
+      "domain_count": 33,
+      "concept_count": 0,
+      "relation_count": 0,
+      "constraint_count": 0,
+      "coverage_analysis": {
+        "ui_coverage": 0.8,
+        "architecture_coverage": 0.7,
+        "web_coverage": 0.6,
+        "ai_coverage": 0.5,
+        "formal_coverage": 0.4,
+        "tool_coverage": 0.3
+      },
+      "complexity_analysis": {
+        "max_concepts_per_domain": 0,
+        "max_relations_per_domain": 0,
+        "max_constraints_per_domain": 0,
+        "average_concepts_per_domain": 0,
+        "average_relations_per_domain": 0,
+        "average_constraints_per_domain": 0
+      },
+      "consistency_analysis": {
+        "naming_consistency": true,
+        "structure_consistency": true,
+        "relation_consistency": true,
+        "constraint_consistency": true
+      }
+    },
+    "new_concepts_count": 8,
+    "new_mappings_count": 0,
+    "consistency_result": {
+      "naming_consistency": true,
+      "structure_consistency": false,
+      "relation_consistency": true,
+      "constraint_consistency": true
+    },
+    "new_concepts": [
+      "语义映射",
+      "语义组合",
+      "语义推理",
+      "语义验证",
+      "语义优化",
+      "语义演化",
+      "语义集成",
+      "语义互操作"
+    ],
+    "new_mappings": []
+  },
+  {
+    "iteration": 2,
+    "timestamp": "2025-07-13T09:19:47.976564",
+    "analysis": {
+      "model_count": 6,
+      "domain_count": 33,
+      "concept_count": 0,
+      "relation_count": 0,
+      "constraint_count": 0,
+      "coverage_analysis": {
+        "ui_coverage": 0.8,
+        "architecture_coverage": 0.7,
+        "web_coverage": 0.6,
+        "ai_coverage": 0.5,
+        "formal_coverage": 0.4,
+        "tool_coverage": 0.3
+      },
+      "complexity_analysis": {
+        "max_concepts_per_domain": 0,
+        "max_relations_per_domain": 0,
+        "max_constraints_per_domain": 0,
+        "average_concepts_per_domain": 0,
+        "average_relations_per_domain": 0,
+        "average_constraints_per_domain": 0
+      },
+      "consistency_analysis": {
+        "naming_consistency": true,
+        "structure_consistency": true,
+        "relation_consistency": true,
+        "constraint_consistency": true
+      }
+    },
+    "new_concepts_count": 8,
+    "new_mappings_count": 0,
+    "consistency_result": {
+      "naming_consistency": true,
+      "structure_consistency": false,
+      "relation_consistency": true,
+      "constraint_consistency": true
+    },
+    "new_concepts": [
+      "语义映射",
+      "语义组合",
+      "语义推理",
+      "语义验证",
+      "语义优化",
+      "语义演化",
+      "语义集成",
+      "语义互操作"
+    ],
+    "new_mappings": []
+  },
+  {
+    "iteration": 3,
+    "timestamp": "2025-07-13T09:19:47.979827",
+    "analysis": {
+      "model_count": 6,
+      "domain_count": 33,
+      "concept_count": 0,
+      "relation_count": 0,
+      "constraint_count": 0,
+      "coverage_analysis": {
+        "ui_coverage": 0.8,
+        "architecture_coverage": 0.7,
+        "web_coverage": 0.6,
+        "ai_coverage": 0.5,
+        "formal_coverage": 0.4,
+        "tool_coverage": 0.3
+      },
+      "complexity_analysis": {
+        "max_concepts_per_domain": 0,
+        "max_relations_per_domain": 0,
+        "max_constraints_per_domain": 0,
+        "average_concepts_per_domain": 0,
+        "average_relations_per_domain": 0,
+        "average_constraints_per_domain": 0
+      },
+      "consistency_analysis": {
+        "naming_consistency": true,
+        "structure_consistency": true,
+        "relation_consistency": true,
+        "constraint_consistency": true
+      }
+    },
+    "new_concepts_count": 8,
+    "new_mappings_count": 0,
+    "consistency_result": {
+      "naming_consistency": true,
+      "structure_consistency": false,
+      "relation_consistency": true,
+      "constraint_consistency": true
+    },
+    "new_concepts": [
+      "语义映射",
+      "语义组合",
+      "语义推理",
+      "语义验证",
+      "语义优化",
+      "语义演化",
+      "语义集成",
+      "语义互操作"
+    ],
+    "new_mappings": []
+  },
+  {
+    "iteration": 4,
+    "timestamp": "2025-07-13T09:19:47.982882",
+    "analysis": {
+      "model_count": 6,
+      "domain_count": 33,
+      "concept_count": 0,
+      "relation_count": 0,
+      "constraint_count": 0,
+      "coverage_analysis": {
+        "ui_coverage": 0.8,
+        "architecture_coverage": 0.7,
+        "web_coverage": 0.6,
+        "ai_coverage": 0.5,
+        "formal_coverage": 0.4,
+        "tool_coverage": 0.3
+      },
+      "complexity_analysis": {
+        "max_concepts_per_domain": 0,
+        "max_relations_per_domain": 0,
+        "max_constraints_per_domain": 0,
+        "average_concepts_per_domain": 0,
+        "average_relations_per_domain": 0,
+        "average_constraints_per_domain": 0
+      },
+      "consistency_analysis": {
+        "naming_consistency": true,
+        "structure_consistency": true,
+        "relation_consistency": true,
+        "constraint_consistency": true
+      }
+    },
+    "new_concepts_count": 8,
+    "new_mappings_count": 0,
+    "consistency_result": {
+      "naming_consistency": true,
+      "structure_consistency": false,
+      "relation_consistency": true,
+      "constraint_consistency": true
+    },
+    "new_concepts": [
+      "语义映射",
+      "语义组合",
+      "语义推理",
+      "语义验证",
+      "语义优化",
+      "语义演化",
+      "语义集成",
+      "语义互操作"
+    ],
+    "new_mappings": []
+  },
+  {
+    "iteration": 5,
+    "timestamp": "2025-07-13T09:19:47.986748",
+    "analysis": {
+      "model_count": 6,
+      "domain_count": 33,
+      "concept_count": 0,
+      "relation_count": 0,
+      "constraint_count": 0,
+      "coverage_analysis": {
+        "ui_coverage": 0.8,
+        "architecture_coverage": 0.7,
+        "web_coverage": 0.6,
+        "ai_coverage": 0.5,
+        "formal_coverage": 0.4,
+        "tool_coverage": 0.3
+      },
+      "complexity_analysis": {
+        "max_concepts_per_domain": 0,
+        "max_relations_per_domain": 0,
+        "max_constraints_per_domain": 0,
+        "average_concepts_per_domain": 0,
+        "average_relations_per_domain": 0,
+        "average_constraints_per_domain": 0
+      },
+      "consistency_analysis": {
+        "naming_consistency": true,
+        "structure_consistency": true,
+        "relation_consistency": true,
+        "constraint_consistency": true
+      }
+    },
+    "new_concepts_count": 8,
+    "new_mappings_count": 0,
+    "consistency_result": {
+      "naming_consistency": true,
+      "structure_consistency": false,
+      "relation_consistency": true,
+      "constraint_consistency": true
+    },
+    "new_concepts": [
+      "语义映射",
+      "语义组合",
+      "语义推理",
+      "语义验证",
+      "语义优化",
+      "语义演化",
+      "语义集成",
+      "语义互操作"
+    ],
+    "new_mappings": []
+  },
+  {
+    "iteration": 6,
+    "timestamp": "2025-07-13T09:19:47.990077",
+    "analysis": {
+      "model_count": 6,
+      "domain_count": 33,
+      "concept_count": 0,
+      "relation_count": 0,
+      "constraint_count": 0,
+      "coverage_analysis": {
+        "ui_coverage": 0.8,
+        "architecture_coverage": 0.7,
+        "web_coverage": 0.6,
+        "ai_coverage": 0.5,
+        "formal_coverage": 0.4,
+        "tool_coverage": 0.3
+      },
+      "complexity_analysis": {
+        "max_concepts_per_domain": 0,
+        "max_relations_per_domain": 0,
+        "max_constraints_per_domain": 0,
+        "average_concepts_per_domain": 0,
+        "average_relations_per_domain": 0,
+        "average_constraints_per_domain": 0
+      },
+      "consistency_analysis": {
+        "naming_consistency": true,
+        "structure_consistency": true,
+        "relation_consistency": true,
+        "constraint_consistency": true
+      }
+    },
+    "new_concepts_count": 8,
+    "new_mappings_count": 0,
+    "consistency_result": {
+      "naming_consistency": true,
+      "structure_consistency": false,
+      "relation_consistency": true,
+      "constraint_consistency": true
+    },
+    "new_concepts": [
+      "语义映射",
+      "语义组合",
+      "语义推理",
+      "语义验证",
+      "语义优化",
+      "语义演化",
+      "语义集成",
+      "语义互操作"
+    ],
+    "new_mappings": []
+  },
+  {
+    "iteration": 7,
+    "timestamp": "2025-07-13T09:19:47.993241",
+    "analysis": {
+      "model_count": 6,
+      "domain_count": 33,
+      "concept_count": 0,
+      "relation_count": 0,
+      "constraint_count": 0,
+      "coverage_analysis": {
+        "ui_coverage": 0.8,
+        "architecture_coverage": 0.7,
+        "web_coverage": 0.6,
+        "ai_coverage": 0.5,
+        "formal_coverage": 0.4,
+        "tool_coverage": 0.3
+      },
+      "complexity_analysis": {
+        "max_concepts_per_domain": 0,
+        "max_relations_per_domain": 0,
+        "max_constraints_per_domain": 0,
+        "average_concepts_per_domain": 0,
+        "average_relations_per_domain": 0,
+        "average_constraints_per_domain": 0
+      },
+      "consistency_analysis": {
+        "naming_consistency": true,
+        "structure_consistency": true,
+        "relation_consistency": true,
+        "constraint_consistency": true
+      }
+    },
+    "new_concepts_count": 8,
+    "new_mappings_count": 0,
+    "consistency_result": {
+      "naming_consistency": true,
+      "structure_consistency": false,
+      "relation_consistency": true,
+      "constraint_consistency": true
+    },
+    "new_concepts": [
+      "语义映射",
+      "语义组合",
+      "语义推理",
+      "语义验证",
+      "语义优化",
+      "语义演化",
+      "语义集成",
+      "语义互操作"
+    ],
+    "new_mappings": []
+  },
+  {
+    "iteration": 8,
+    "timestamp": "2025-07-13T09:19:47.996588",
+    "analysis": {
+      "model_count": 6,
+      "domain_count": 33,
+      "concept_count": 0,
+      "relation_count": 0,
+      "constraint_count": 0,
+      "coverage_analysis": {
+        "ui_coverage": 0.8,
+        "architecture_coverage": 0.7,
+        "web_coverage": 0.6,
+        "ai_coverage": 0.5,
+        "formal_coverage": 0.4,
+        "tool_coverage": 0.3
+      },
+      "complexity_analysis": {
+        "max_concepts_per_domain": 0,
+        "max_relations_per_domain": 0,
+        "max_constraints_per_domain": 0,
+        "average_concepts_per_domain": 0,
+        "average_relations_per_domain": 0,
+        "average_constraints_per_domain": 0
+      },
+      "consistency_analysis": {
+        "naming_consistency": true,
+        "structure_consistency": true,
+        "relation_consistency": true,
+        "constraint_consistency": true
+      }
+    },
+    "new_concepts_count": 8,
+    "new_mappings_count": 0,
+    "consistency_result": {
+      "naming_consistency": true,
+      "structure_consistency": false,
+      "relation_consistency": true,
+      "constraint_consistency": true
+    },
+    "new_concepts": [
+      "语义映射",
+      "语义组合",
+      "语义推理",
+      "语义验证",
+      "语义优化",
+      "语义演化",
+      "语义集成",
+      "语义互操作"
+    ],
+    "new_mappings": []
+  },
+  {
+    "iteration": 9,
+    "timestamp": "2025-07-13T09:19:47.999025",
+    "analysis": {
+      "model_count": 6,
+      "domain_count": 33,
+      "concept_count": 0,
+      "relation_count": 0,
+      "constraint_count": 0,
+      "coverage_analysis": {
+        "ui_coverage": 0.8,
+        "architecture_coverage": 0.7,
+        "web_coverage": 0.6,
+        "ai_coverage": 0.5,
+        "formal_coverage": 0.4,
+        "tool_coverage": 0.3
+      },
+      "complexity_analysis": {
+        "max_concepts_per_domain": 0,
+        "max_relations_per_domain": 0,
+        "max_constraints_per_domain": 0,
+        "average_concepts_per_domain": 0,
+        "average_relations_per_domain": 0,
+        "average_constraints_per_domain": 0
+      },
+      "consistency_analysis": {
+        "naming_consistency": true,
+        "structure_consistency": true,
+        "relation_consistency": true,
+        "constraint_consistency": true
+      }
+    },
+    "new_concepts_count": 8,
+    "new_mappings_count": 0,
+    "consistency_result": {
+      "naming_consistency": true,
+      "structure_consistency": false,
+      "relation_consistency": true,
+      "constraint_consistency": true
+    },
+    "new_concepts": [
+      "语义映射",
+      "语义组合",
+      "语义推理",
+      "语义验证",
+      "语义优化",
+      "语义演化",
+      "语义集成",
+      "语义互操作"
+    ],
+    "new_mappings": []
+  },
+  {
+    "iteration": 10,
+    "timestamp": "2025-07-13T09:19:48.002513",
+    "analysis": {
+      "model_count": 6,
+      "domain_count": 33,
+      "concept_count": 0,
+      "relation_count": 0,
+      "constraint_count": 0,
+      "coverage_analysis": {
+        "ui_coverage": 0.8,
+        "architecture_coverage": 0.7,
+        "web_coverage": 0.6,
+        "ai_coverage": 0.5,
+        "formal_coverage": 0.4,
+        "tool_coverage": 0.3
+      },
+      "complexity_analysis": {
+        "max_concepts_per_domain": 0,
+        "max_relations_per_domain": 0,
+        "max_constraints_per_domain": 0,
+        "average_concepts_per_domain": 0,
+        "average_relations_per_domain": 0,
+        "average_constraints_per_domain": 0
+      },
+      "consistency_analysis": {
+        "naming_consistency": true,
+        "structure_consistency": true,
+        "relation_consistency": true,
+        "constraint_consistency": true
+      }
+    },
+    "new_concepts_count": 8,
+    "new_mappings_count": 0,
+    "consistency_result": {
+      "naming_consistency": true,
+      "structure_consistency": false,
+      "relation_consistency": true,
+      "constraint_consistency": true
+    },
+    "new_concepts": [
+      "语义映射",
+      "语义组合",
+      "语义推理",
+      "语义验证",
+      "语义优化",
+      "语义演化",
+      "语义集成",
+      "语义互操作"
+    ],
+    "new_mappings": []
+  }
+]
