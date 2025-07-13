@@ -1,6 +1,7 @@
 # 形式化语义理论
 
 ## 目录
+
 - [形式化语义理论](#形式化语义理论)
 - [理论基础](#理论基础)
 - [核心概念](#核心概念)
@@ -13,6 +14,7 @@
 ## 理论基础
 
 ### 形式化语义理论的数学理论基础
+
 形式化语义理论建立在数学逻辑、范畴论和代数语义学的基础上：
 
 1. **数学逻辑原理**
@@ -62,9 +64,11 @@ graph TD
 ## 核心概念
 
 ### 1. 语义域（Semantic Domain）
+
 语义域是形式化语义理论的基本单位，定义了语义解释的数学结构。
 
 **形式化定义：**
+
 ```
 SemanticDomain = {
   universe: Set<Value>,
@@ -75,36 +79,44 @@ SemanticDomain = {
 ```
 
 ### 2. 语义函数（Semantic Function）
+
 语义函数将语法结构映射到语义域中的值。
 
 **形式化定义：**
+
 ```
 SemanticFunction: Syntax → SemanticDomain
 ⟦e⟧: Expression → Value
 ```
 
 ### 3. 语义关系（Semantic Relation）
+
 语义关系定义了语义域中元素之间的关系。
 
 **形式化定义：**
+
 ```
 SemanticRelation ⊆ SemanticDomain × SemanticDomain
 R: Value × Value → Boolean
 ```
 
 ### 4. 语义等价（Semantic Equivalence）
+
 语义等价定义了语义上等价的表达式。
 
 **形式化定义：**
+
 ```
 SemanticEquivalence: Expression × Expression → Boolean
 e1 ≡ e2 ⇔ ⟦e1⟧ = ⟦e2⟧
 ```
 
 ### 5. 语义蕴含（Semantic Entailment）
+
 语义蕴含定义了语义上的逻辑蕴含关系。
 
 **形式化定义：**
+
 ```
 SemanticEntailment: Expression × Expression → Boolean
 e1 ⊨ e2 ⇔ ∀σ. σ ⊨ e1 ⇒ σ ⊨ e2
@@ -115,6 +127,7 @@ e1 ⊨ e2 ⇔ ∀σ. σ ⊨ e1 ⇒ σ ⊨ e2
 ### 1. 集合论基础
 
 #### 集合运算
+
 ```
 Union: A ∪ B = {x | x ∈ A ∨ x ∈ B}
 Intersection: A ∩ B = {x | x ∈ A ∧ x ∈ B}
@@ -123,6 +136,7 @@ Cartesian Product: A × B = {(a, b) | a ∈ A ∧ b ∈ B}
 ```
 
 #### 关系运算
+
 ```
 Composition: R ∘ S = {(a, c) | ∃b. (a, b) ∈ R ∧ (b, c) ∈ S}
 Inverse: R⁻¹ = {(b, a) | (a, b) ∈ R}
@@ -132,6 +146,7 @@ Transitive Closure: R* = ⋃ᵢ Rⁱ
 ### 2. 函数论基础
 
 #### 函数类型
+
 ```
 Total Function: f: A → B
 Partial Function: f: A ⇀ B
@@ -141,6 +156,7 @@ Bijective Function: Injective ∧ Surjective
 ```
 
 #### 函数运算
+
 ```
 Composition: (f ∘ g)(x) = f(g(x))
 Inverse: f⁻¹: B → A
@@ -150,6 +166,7 @@ Currying: curry(f): A → (B → C)
 ### 3. 代数结构基础
 
 #### 群论
+
 ```
 Group = (G, ·, e, ⁻¹)
 Associativity: (a · b) · c = a · (b · c)
@@ -158,6 +175,7 @@ Inverse: a · a⁻¹ = a⁻¹ · a = e
 ```
 
 #### 环论
+
 ```
 Ring = (R, +, ·, 0, 1)
 Additive Group: (R, +, 0)
@@ -170,6 +188,7 @@ Distributivity: a · (b + c) = a · b + a · c
 ### 1. 类型系统
 
 #### 简单类型系统
+
 ```
 Type ::= BaseType | FunctionType | ProductType | SumType
 BaseType ::= Bool | Int | String | Unit
@@ -179,6 +198,7 @@ SumType ::= Type + Type
 ```
 
 #### 多态类型系统
+
 ```
 Type ::= BaseType | TypeVariable | UniversalType | ExistentialType
 TypeVariable ::= α | β | γ
@@ -187,6 +207,7 @@ ExistentialType ::= ∃α. Type
 ```
 
 #### 依赖类型系统
+
 ```
 Type ::= BaseType | ΠType | ΣType | IdType
 ΠType ::= Πx:A. B
@@ -197,12 +218,14 @@ IdType ::= Id(A, a, b)
 ### 2. 逻辑系统
 
 #### 命题逻辑
+
 ```
 Formula ::= Atom | ¬Formula | Formula ∧ Formula | Formula ∨ Formula | Formula → Formula
 Atom ::= P | Q | R
 ```
 
 #### 谓词逻辑
+
 ```
 Formula ::= Atom | ¬Formula | Formula ∧ Formula | Formula ∨ Formula | Formula → Formula | ∀x.Formula | ∃x.Formula
 Atom ::= P(t₁, ..., tₙ)
@@ -210,6 +233,7 @@ Term ::= Variable | Function(Term, ..., Term)
 ```
 
 #### 模态逻辑
+
 ```
 Formula ::= Atom | ¬Formula | Formula ∧ Formula | Formula ∨ Formula | Formula → Formula | □Formula | ◇Formula
 ```
@@ -217,6 +241,7 @@ Formula ::= Atom | ¬Formula | Formula ∧ Formula | Formula ∨ Formula | Formu
 ### 3. 范畴论系统
 
 #### 范畴定义
+
 ```
 Category = (Ob, Hom, id, ∘)
 Objects: Ob
@@ -226,6 +251,7 @@ Composition: ∘: Hom(B, C) × Hom(A, B) → Hom(A, C)
 ```
 
 #### 函子定义
+
 ```
 Functor: C → D
 Object Map: F: Ob(C) → Ob(D)
@@ -238,6 +264,7 @@ Functoriality: F(id_A) = id_F(A), F(f ∘ g) = F(f) ∘ F(g)
 ### 1. 类型推理
 
 #### 类型推导规则
+
 ```
 Var: Γ ⊢ x: A (if x: A ∈ Γ)
 Abs: Γ, x: A ⊢ e: B / Γ ⊢ λx.e: A → B
@@ -245,6 +272,7 @@ App: Γ ⊢ e₁: A → B, Γ ⊢ e₂: A / Γ ⊢ e₁ e₂: B
 ```
 
 #### 类型检查算法
+
 ```
 TypeCheck(Γ, e) = {
   case e of
@@ -265,6 +293,7 @@ TypeCheck(Γ, e) = {
 ### 2. 逻辑推理
 
 #### 自然演绎规则
+
 ```
 Introduction Rules:
   ∧I: A, B / A ∧ B
@@ -284,6 +313,7 @@ Elimination Rules:
 ```
 
 #### 归结推理
+
 ```
 Resolution: A ∨ B, ¬A ∨ C / B ∨ C
 Factorization: A ∨ A ∨ B / A ∨ B
@@ -292,16 +322,19 @@ Factorization: A ∨ A ∨ B / A ∨ B
 ### 3. 语义等价推理
 
 #### β等价
+
 ```
 (λx.e₁) e₂ ≡ e₁[e₂/x]
 ```
 
 #### η等价
+
 ```
 λx.(e x) ≡ e (if x not free in e)
 ```
 
 #### 代数等价
+
 ```
 Associativity: (a + b) + c ≡ a + (b + c)
 Commutativity: a + b ≡ b + a
@@ -476,21 +509,25 @@ interface CategorySemantics {
 ## 发展趋势
 
 ### 1. 高阶类型系统
+
 - 支持高阶类型构造
 - 提供更丰富的类型抽象
 - 增强类型安全性
 
 ### 2. 依赖类型系统
+
 - 支持类型级别的计算
 - 提供更强的类型保证
 - 实现类型安全的元编程
 
 ### 3. 同伦类型论
+
 - 统一类型和空间
 - 提供几何直觉
 - 支持高阶结构
 
 ### 4. 量子语义学
+
 - 量子计算语义
 - 量子逻辑
 - 量子信息论
@@ -505,4 +542,4 @@ interface CategorySemantics {
 - [5.4 类型语义](./5.4 类型语义.md)
 - [5.5 形式化语义工具](./5.5 形式化语义工具.md)
 
-> 形式化语义理论作为语义模型体系的理论基础层，为整个语义模型体系提供了严格的数学基础和形式化工具。 
+> 形式化语义理论作为语义模型体系的理论基础层，为整个语义模型体系提供了严格的数学基础和形式化工具。

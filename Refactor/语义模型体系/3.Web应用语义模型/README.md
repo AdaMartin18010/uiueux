@@ -1,6 +1,7 @@
 # Web应用语义模型
 
 ## 目录
+
 - [Web应用语义模型](#web应用语义模型)
 - [理论基础](#理论基础)
 - [核心概念](#核心概念)
@@ -13,6 +14,7 @@
 ## 理论基础
 
 ### Web应用语义模型的网络理论基础
+
 Web应用语义模型建立在网络理论、分布式系统和Web技术的基础上：
 
 1. **网络理论原理**
@@ -62,9 +64,11 @@ graph TD
 ## 核心概念
 
 ### 1. Web应用语义（Web Application Semantics）
+
 Web应用语义定义了Web应用的基本语义属性和行为。
 
 **形式化定义：**
+
 ```
 WebApplication = {
   id: String,
@@ -77,9 +81,11 @@ WebApplication = {
 ```
 
 ### 2. 客户端语义（Client Semantics）
+
 客户端语义描述了Web应用客户端的特性和行为。
 
 **形式化定义：**
+
 ```
 ClientSemantics = {
   browser: BrowserSemantics,
@@ -90,9 +96,11 @@ ClientSemantics = {
 ```
 
 ### 3. 服务端语义（Server Semantics）
+
 服务端语义定义了Web应用服务端的特性和行为。
 
 **形式化定义：**
+
 ```
 ServerSemantics = {
   api: APISemantics,
@@ -103,9 +111,11 @@ ServerSemantics = {
 ```
 
 ### 4. 网络语义（Network Semantics）
+
 网络语义描述了Web应用网络通信的特性和行为。
 
 **形式化定义：**
+
 ```
 NetworkSemantics = {
   protocol: ProtocolSemantics,
@@ -116,9 +126,11 @@ NetworkSemantics = {
 ```
 
 ### 5. 数据语义（Data Semantics）
+
 数据语义定义了Web应用数据的特性和行为。
 
 **形式化定义：**
+
 ```
 DataSemantics = {
   storage: StorageSemantics,
@@ -133,6 +145,7 @@ DataSemantics = {
 ### 1. 基础Web应用语义域
 
 #### SPA语义域（Single Page Application Semantic Domain）
+
 ```
 SPASemantics = {
   concepts: {Client, Router, State, Component},
@@ -143,6 +156,7 @@ SPASemantics = {
 ```
 
 #### SSR语义域（Server Side Rendering Semantic Domain）
+
 ```
 SSRSemantics = {
   concepts: {Server, Template, Hydration, SEO},
@@ -153,6 +167,7 @@ SSRSemantics = {
 ```
 
 #### API语义域（API Semantic Domain）
+
 ```
 APISemantics = {
   concepts: {Endpoint, Method, Response, Authentication},
@@ -165,6 +180,7 @@ APISemantics = {
 ### 2. 复合Web应用语义域
 
 #### 微前端语义域（Micro Frontend Semantic Domain）
+
 ```
 MicroFrontendSemantics = {
   concepts: {Module, Federation, Integration, Isolation},
@@ -175,6 +191,7 @@ MicroFrontendSemantics = {
 ```
 
 #### PWA语义域（Progressive Web App Semantic Domain）
+
 ```
 PWASemantics = {
   concepts: {ServiceWorker, Manifest, Offline, Installable},
@@ -185,6 +202,7 @@ PWASemantics = {
 ```
 
 #### JAMstack语义域（JAMstack Semantic Domain）
+
 ```
 JAMstackSemantics = {
   concepts: {JavaScript, API, Markup, Prebuild},
@@ -197,31 +215,37 @@ JAMstackSemantics = {
 ## 语义映射关系
 
 ### 1. 客户端到服务端映射
+
 ```
 ClientToServer: ClientSemantics → ServerSemantics
 ```
 
 **映射规则：**
+
 - 前端状态 → 后端状态
 - 用户交互 → API调用
 - 客户端路由 → 服务端路由
 
 ### 2. 服务端到网络映射
+
 ```
 ServerToNetwork: ServerSemantics → NetworkSemantics
 ```
 
 **映射规则：**
+
 - API端点 → 网络路由
 - 业务逻辑 → 网络协议
 - 安全策略 → 网络安全
 
 ### 3. 网络到数据映射
+
 ```
 NetworkToData: NetworkSemantics → DataSemantics
 ```
 
 **映射规则：**
+
 - 网络传输 → 数据传输
 - 网络缓存 → 数据缓存
 - 网络安全 → 数据安全
@@ -229,6 +253,7 @@ NetworkToData: NetworkSemantics → DataSemantics
 ## 形式化表示
 
 ### 1. 类型系统
+
 ```
 WebApplicationType ::= 
   | SPA
@@ -260,18 +285,21 @@ SemanticType ::=
 ### 2. 语义推理规则
 
 #### 客户端语义推理
+
 ```
 ClientState(s1) ∧ UserInteraction(i) ∧ APIEndpoint(e) 
   → ServerRequest(r, e, s1)
 ```
 
 #### 服务端语义推理
+
 ```
 ServerRequest(r) ∧ BusinessLogic(l) ∧ DatabaseQuery(q) 
   → ServerResponse(res, r, l, q)
 ```
 
 #### 网络语义推理
+
 ```
 NetworkRequest(req) ∧ Protocol(p) ∧ SecurityPolicy(sp) 
   → NetworkResponse(res, req, p, sp)
@@ -280,16 +308,19 @@ NetworkRequest(req) ∧ Protocol(p) ∧ SecurityPolicy(sp)
 ### 3. 语义组合算子
 
 #### 客户端组合
+
 ```
 ClientCompose: ClientSemantics × ClientSemantics → ClientSemantics
 ```
 
 #### 服务端组合
+
 ```
 ServerCompose: ServerSemantics × ServerSemantics → ServerSemantics
 ```
 
 #### 网络组合
+
 ```
 NetworkCompose: NetworkSemantics × NetworkSemantics → NetworkSemantics
 ```
@@ -605,21 +636,25 @@ interface MicroFrontendSemantics {
 ## 发展趋势
 
 ### 1. 边缘计算
+
 - 将计算能力推向网络边缘
 - 减少延迟，提高性能
 - 支持离线功能
 
 ### 2. 无服务器架构
+
 - 基于函数计算
 - 自动扩缩容
 - 按需付费
 
 ### 3. WebAssembly
+
 - 高性能Web应用
 - 跨语言开发
 - 接近原生性能
 
 ### 4. AI驱动的Web应用
+
 - 智能内容生成
 - 个性化用户体验
 - 自动化测试和部署
@@ -634,4 +669,4 @@ interface MicroFrontendSemantics {
 - [3.4 数据语义](./3.4 数据语义.md)
 - [3.5 Web应用语义工具](./3.5 Web应用语义工具.md)
 
-> Web应用语义模型作为语义模型体系的应用层，为实际Web应用开发提供了语义化的理论基础和实践指导。 
+> Web应用语义模型作为语义模型体系的应用层，为实际Web应用开发提供了语义化的理论基础和实践指导。
