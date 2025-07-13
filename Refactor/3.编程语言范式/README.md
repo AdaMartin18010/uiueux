@@ -1,6 +1,7 @@
 ﻿3.编程语言范式
 
 目录
+
 - [Web开发路径](#web开发路径)
 - [系统编程路径](#系统编程路径)
 - [函数式编程路径](#函数式编程路径)
@@ -71,30 +72,35 @@ graph TD
 # 目录结构
 
 3.1 [Rust](./3.编程语言范式/3.1 Rust.md)
+
 - 所有权系统
 - 并发安全
 - 零成本抽象
 - WASM优化
 
 3.2 [Haskell](./3.编程语言范式/3.2 Haskell.md)
+
 - 类型系统
 - 函数组合
 - 范畴论
 - 形式验证
 
 3.3 [Scala](./3.编程语言范式/3.3 Scala.md)
+
 - 函数式特性
 - 类型系统
 - 并发模型
 - JVM优化
 
 3.4 [TypeScript-JavaScript](./3.编程语言范式/3.4 TypeScript-JavaScript.md)
+
 - 类型系统
 - 异步编程
 - 装饰器
 - 工程实践
 
 3.5 [Dart-Flutter](./3.编程语言范式/3.5 Dart-Flutter.md)
+
 - 语言特性
 - UI框架
 - 跨平台
@@ -1208,6 +1214,7 @@ pub struct Partial<T> {
     pub data: Option<Option<serde_json::Value>>,
 }
 ```
+
 ---
 
 > 本文档持续递归优化，欢迎补充最新语言特性与范式理论。编程语言范式是构建软件系统的理论基础，需要在实践中不断探索和创新。

@@ -69,7 +69,7 @@ Web应用语义定义了Web应用的基本语义属性和行为。
 
 **形式化定义：**
 
-```
+```text
 WebApplication = {
   id: String,
   type: ApplicationType,
@@ -86,7 +86,7 @@ WebApplication = {
 
 **形式化定义：**
 
-```
+```text
 ClientSemantics = {
   browser: BrowserSemantics,
   frontend: FrontendSemantics,
@@ -101,7 +101,7 @@ ClientSemantics = {
 
 **形式化定义：**
 
-```
+```text
 ServerSemantics = {
   api: APISemantics,
   business: BusinessSemantics,
@@ -116,7 +116,7 @@ ServerSemantics = {
 
 **形式化定义：**
 
-```
+```text
 NetworkSemantics = {
   protocol: ProtocolSemantics,
   routing: RoutingSemantics,
@@ -131,7 +131,7 @@ NetworkSemantics = {
 
 **形式化定义：**
 
-```
+```text
 DataSemantics = {
   storage: StorageSemantics,
   transmission: TransmissionSemantics,
@@ -146,7 +146,7 @@ DataSemantics = {
 
 #### SPA语义域（Single Page Application Semantic Domain）
 
-```
+```text
 SPASemantics = {
   concepts: {Client, Router, State, Component},
   relations: {Routes, Manages, Renders, Updates},
@@ -157,7 +157,7 @@ SPASemantics = {
 
 #### SSR语义域（Server Side Rendering Semantic Domain）
 
-```
+```text
 SSRSemantics = {
   concepts: {Server, Template, Hydration, SEO},
   relations: {Renders, Serves, Hydrates, Optimizes},
@@ -168,7 +168,7 @@ SSRSemantics = {
 
 #### API语义域（API Semantic Domain）
 
-```
+```text
 APISemantics = {
   concepts: {Endpoint, Method, Response, Authentication},
   relations: {Accepts, Returns, Validates, Authorizes},
@@ -181,7 +181,7 @@ APISemantics = {
 
 #### 微前端语义域（Micro Frontend Semantic Domain）
 
-```
+```text
 MicroFrontendSemantics = {
   concepts: {Module, Federation, Integration, Isolation},
   relations: {Composes, Integrates, Isolates, Communicates},
@@ -192,7 +192,7 @@ MicroFrontendSemantics = {
 
 #### PWA语义域（Progressive Web App Semantic Domain）
 
-```
+```text
 PWASemantics = {
   concepts: {ServiceWorker, Manifest, Offline, Installable},
   relations: {Caches, Serves, Updates, Installs},
@@ -203,7 +203,7 @@ PWASemantics = {
 
 #### JAMstack语义域（JAMstack Semantic Domain）
 
-```
+```text
 JAMstackSemantics = {
   concepts: {JavaScript, API, Markup, Prebuild},
   relations: {Generates, Serves, Updates, Optimizes},
@@ -216,7 +216,7 @@ JAMstackSemantics = {
 
 ### 1. 客户端到服务端映射
 
-```
+```text
 ClientToServer: ClientSemantics → ServerSemantics
 ```
 
@@ -228,7 +228,7 @@ ClientToServer: ClientSemantics → ServerSemantics
 
 ### 2. 服务端到网络映射
 
-```
+```text
 ServerToNetwork: ServerSemantics → NetworkSemantics
 ```
 
@@ -240,7 +240,7 @@ ServerToNetwork: ServerSemantics → NetworkSemantics
 
 ### 3. 网络到数据映射
 
-```
+```text
 NetworkToData: NetworkSemantics → DataSemantics
 ```
 
@@ -254,7 +254,7 @@ NetworkToData: NetworkSemantics → DataSemantics
 
 ### 1. 类型系统
 
-```
+```text
 WebApplicationType ::= 
   | SPA
   | SSR
@@ -286,14 +286,14 @@ SemanticType ::=
 
 #### 客户端语义推理
 
-```
+```text
 ClientState(s1) ∧ UserInteraction(i) ∧ APIEndpoint(e) 
   → ServerRequest(r, e, s1)
 ```
 
 #### 服务端语义推理
 
-```
+```text
 ServerRequest(r) ∧ BusinessLogic(l) ∧ DatabaseQuery(q) 
   → ServerResponse(res, r, l, q)
 ```

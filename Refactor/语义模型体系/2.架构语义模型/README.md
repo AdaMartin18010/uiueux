@@ -69,7 +69,7 @@ graph TD
 
 **形式化定义：**
 
-```
+```text
 ArchitectureComponent = {
   id: String,
   type: ComponentType,
@@ -86,7 +86,7 @@ ArchitectureComponent = {
 
 **形式化定义：**
 
-```
+```text
 StructuralSemantics = {
   composition: Composition,
   hierarchy: Hierarchy,
@@ -101,7 +101,7 @@ StructuralSemantics = {
 
 **形式化定义：**
 
-```
+```text
 BehavioralSemantics = {
   states: Set<State>,
   transitions: Set<Transition>,
@@ -116,7 +116,7 @@ BehavioralSemantics = {
 
 **形式化定义：**
 
-```
+```text
 RelationalSemantics = {
   dependencies: Set<Dependency>,
   communications: Set<Communication>,
@@ -131,7 +131,7 @@ RelationalSemantics = {
 
 **形式化定义：**
 
-```
+```text
 ConstraintSemantics = {
   functional: Set<FunctionalConstraint>,
   performance: Set<PerformanceConstraint>,
@@ -146,7 +146,7 @@ ConstraintSemantics = {
 
 #### MVC语义域（MVC Semantic Domain）
 
-```
+```text
 MVCSemantics = {
   concepts: {Model, View, Controller, Separation},
   relations: {Updates, Observes, Controls, Separates},
@@ -157,7 +157,7 @@ MVCSemantics = {
 
 #### MVVM语义域（MVVM Semantic Domain）
 
-```
+```text
 MVVMSemantics = {
   concepts: {Model, View, ViewModel, Binding},
   relations: {Binds, Updates, Synchronizes, Transforms},
@@ -168,7 +168,7 @@ MVVMSemantics = {
 
 #### Flux语义域（Flux Semantic Domain）
 
-```
+```text
 FluxSemantics = {
   concepts: {Action, Dispatcher, Store, View},
   relations: {Dispatches, Updates, Renders, Observes},
@@ -181,7 +181,7 @@ FluxSemantics = {
 
 #### 微服务语义域（Microservice Semantic Domain）
 
-```
+```text
 MicroserviceSemantics = {
   concepts: {Service, API, Gateway, Registry},
   relations: {Communicates, Routes, Discovers, Loads},
@@ -192,7 +192,7 @@ MicroserviceSemantics = {
 
 #### 事件驱动语义域（Event-Driven Semantic Domain）
 
-```
+```text
 EventDrivenSemantics = {
   concepts: {Event, Producer, Consumer, Broker},
   relations: {Publishes, Subscribes, Routes, Processes},
@@ -203,7 +203,7 @@ EventDrivenSemantics = {
 
 #### 分层架构语义域（Layered Semantic Domain）
 
-```
+```text
 LayeredSemantics = {
   concepts: {Layer, Interface, Abstraction, Encapsulation},
   relations: {DependsOn, Provides, Uses, Hides},
@@ -216,7 +216,7 @@ LayeredSemantics = {
 
 ### 1. 结构到行为映射
 
-```
+```text
 StructuralToBehavioral: StructuralSemantics → BehavioralSemantics
 ```
 
@@ -228,7 +228,7 @@ StructuralToBehavioral: StructuralSemantics → BehavioralSemantics
 
 ### 2. 行为到关系映射
 
-```
+```text
 BehavioralToRelational: BehavioralSemantics → RelationalSemantics
 ```
 
@@ -240,7 +240,7 @@ BehavioralToRelational: BehavioralSemantics → RelationalSemantics
 
 ### 3. 关系到约束映射
 
-```
+```text
 RelationalToConstraint: RelationalSemantics → ConstraintSemantics
 ```
 
@@ -254,7 +254,7 @@ RelationalToConstraint: RelationalSemantics → ConstraintSemantics
 
 ### 1. 类型系统
 
-```
+```text
 ArchitectureType ::= 
   | MVC
   | MVVM
@@ -283,21 +283,21 @@ SemanticType ::=
 
 #### 结构语义推理
 
-```
+```text
 ComponentStructure(c1, c2) ∧ HierarchicalLevel(c1) > HierarchicalLevel(c2) 
   → DependencyDirection(c1, c2, "upward")
 ```
 
 #### 行为语义推理
 
-```
+```text
 StateTransition(s1, s2) ∧ EventTrigger(e, s1) 
   → ActionExecution(a, s2)
 ```
 
 #### 关系语义推理
 
-```
+```text
 CommunicationRelation(c1, c2) ∧ InterfaceCompatible(i1, i2) 
   → MessageExchange(m, c1, c2)
 ```
@@ -306,19 +306,19 @@ CommunicationRelation(c1, c2) ∧ InterfaceCompatible(i1, i2)
 
 #### 结构组合
 
-```
+```text
 StructuralCompose: StructuralSemantics × StructuralSemantics → StructuralSemantics
 ```
 
 #### 行为组合
 
-```
+```text
 BehavioralCompose: BehavioralSemantics × BehavioralSemantics → BehavioralSemantics
 ```
 
 #### 关系组合
 
-```
+```text
 RelationalCompose: RelationalSemantics × RelationalSemantics → RelationalSemantics
 ```
 

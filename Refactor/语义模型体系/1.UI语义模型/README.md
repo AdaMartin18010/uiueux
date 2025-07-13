@@ -69,7 +69,7 @@ UI元素语义定义了界面元素的基本语义属性和行为。
 
 **形式化定义：**
 
-```
+```text
 UIElement = {
   id: String,
   type: ElementType,
@@ -86,7 +86,7 @@ UIElement = {
 
 **形式化定义：**
 
-```
+```text
 VisualSemantics = {
   appearance: Appearance,
   layout: Layout,
@@ -101,7 +101,7 @@ VisualSemantics = {
 
 **形式化定义：**
 
-```
+```text
 InteractionSemantics = {
   states: Set<State>,
   events: Set<Event>,
@@ -116,7 +116,7 @@ InteractionSemantics = {
 
 **形式化定义：**
 
-```
+```text
 FunctionalSemantics = {
   purpose: Purpose,
   behavior: Behavior,
@@ -131,7 +131,7 @@ FunctionalSemantics = {
 
 **形式化定义：**
 
-```
+```text
 EmotionalSemantics = {
   expression: Expression,
   mood: Mood,
@@ -146,7 +146,7 @@ EmotionalSemantics = {
 
 #### 按钮语义域（Button Semantic Domain）
 
-```
+```text
 ButtonSemantics = {
   concepts: {Clickable, Interactive, Trigger},
   relations: {Triggers, RespondsTo, ProvidesFeedback},
@@ -157,7 +157,7 @@ ButtonSemantics = {
 
 #### 输入框语义域（Input Semantic Domain）
 
-```
+```text
 InputSemantics = {
   concepts: {Editable, Validatable, Submittable},
   relations: {AcceptsInput, ValidatesInput, SubmitsData},
@@ -168,7 +168,7 @@ InputSemantics = {
 
 #### 导航语义域（Navigation Semantic Domain）
 
-```
+```text
 NavigationSemantics = {
   concepts: {Navigable, Hierarchical, Contextual},
   relations: {LeadsTo, BelongsTo, ProvidesContext},
@@ -181,7 +181,7 @@ NavigationSemantics = {
 
 #### 表单语义域（Form Semantic Domain）
 
-```
+```text
 FormSemantics = {
   concepts: {Collective, Validatable, Submittable},
   relations: {Contains, Validates, Submits},
@@ -192,7 +192,7 @@ FormSemantics = {
 
 #### 列表语义域（List Semantic Domain）
 
-```
+```text
 ListSemantics = {
   concepts: {Collection, Sortable, Filterable},
   relations: {Contains, Orders, Filters},
@@ -203,7 +203,7 @@ ListSemantics = {
 
 #### 模态框语义域（Modal Semantic Domain）
 
-```
+```text
 ModalSemantics = {
   concepts: {Overlay, Focused, Dismissible},
   relations: {Overlays, Focuses, Dismisses},
@@ -216,7 +216,7 @@ ModalSemantics = {
 
 ### 1. 视觉到功能映射
 
-```
+```text
 VisualToFunctional: VisualSemantics → FunctionalSemantics
 ```
 
@@ -228,7 +228,7 @@ VisualToFunctional: VisualSemantics → FunctionalSemantics
 
 ### 2. 交互到情感映射
 
-```
+```text
 InteractionToEmotional: InteractionSemantics → EmotionalSemantics
 ```
 
@@ -240,7 +240,7 @@ InteractionToEmotional: InteractionSemantics → EmotionalSemantics
 
 ### 3. 功能到业务映射
 
-```
+```text
 FunctionalToBusiness: FunctionalSemantics → BusinessSemantics
 ```
 
@@ -254,7 +254,7 @@ FunctionalToBusiness: FunctionalSemantics → BusinessSemantics
 
 ### 1. 类型系统
 
-```
+```text
 UIElementType ::= 
   | Button
   | Input
@@ -275,21 +275,21 @@ SemanticType ::=
 
 #### 视觉语义推理
 
-```
+```text
 VisualHierarchy(e1, e2) ∧ VisualWeight(e1) > VisualWeight(e2) 
   → FunctionalImportance(e1) > FunctionalImportance(e2)
 ```
 
 #### 交互语义推理
 
-```
+```text
 InteractiveState(e, "hover") ∧ ProvidesFeedback(e, "visual") 
   → EmotionalResponse(e, "engagement")
 ```
 
 #### 功能语义推理
 
-```
+```text
 FunctionalPurpose(e, "submit") ∧ ValidatesInput(e, true) 
   → BusinessProcess(e, "data_validation")
 ```
@@ -298,19 +298,19 @@ FunctionalPurpose(e, "submit") ∧ ValidatesInput(e, true)
 
 #### 视觉组合
 
-```
+```text
 VisualCompose: VisualSemantics × VisualSemantics → VisualSemantics
 ```
 
 #### 交互组合
 
-```
+```text
 InteractionCompose: InteractionSemantics × InteractionSemantics → InteractionSemantics
 ```
 
 #### 功能组合
 
-```
+```text
 FunctionalCompose: FunctionalSemantics × FunctionalSemantics → FunctionalSemantics
 ```
 
