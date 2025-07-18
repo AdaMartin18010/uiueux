@@ -76,7 +76,7 @@ class SemanticModelExpander:
         self.concepts: Dict[str, SemanticConcept] = {}
         self.expansion_history: List[Dict[str, Any]] = []
         self.iteration_count = 0
-        self.max_iterations = 10
+        self.max_iterations = 1000
         
     def load_existing_models(self) -> None:
         """加载现有的语义模型"""
