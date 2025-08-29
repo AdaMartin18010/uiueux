@@ -71,7 +71,7 @@ graph TD
 
 **形式化定义：**
 
-```
+```text
 SemanticDomain = {
   concepts: Set<Concept>,
   relations: Set<Relation>,
@@ -86,7 +86,7 @@ SemanticDomain = {
 
 **形式化定义：**
 
-```
+```text
 SemanticMapping: Domain_A → Domain_B
 f: Concept_A → Concept_B
 g: Relation_A → Relation_B
@@ -98,7 +98,7 @@ g: Relation_A → Relation_B
 
 **形式化定义：**
 
-```
+```text
 Composition: Domain_1 × Domain_2 × ... × Domain_n → CompositeDomain
 ```
 
@@ -134,7 +134,7 @@ Composition: Domain_1 × Domain_2 × ... × Domain_n → CompositeDomain
 
 语义模型通过递归定义实现自引用和自扩展：
 
-```
+```text
 SemanticModel(n) = BaseModel ⊕ SemanticModel(n-1) ⊕ Extension(n)
 ```
 
@@ -171,7 +171,7 @@ SemanticModel(n) = BaseModel ⊕ SemanticModel(n-1) ⊕ Extension(n)
 
 语义模型可以表示为类型系统：
 
-```
+```text
 SemanticType ::= BaseType | FunctionType | ProductType | SumType
 ```
 
@@ -179,7 +179,7 @@ SemanticType ::= BaseType | FunctionType | ProductType | SumType
 
 语义模型可以表示为代数结构：
 
-```
+```text
 SemanticAlgebra = (Domain, Operations, Axioms)
 ```
 
@@ -187,19 +187,19 @@ SemanticAlgebra = (Domain, Operations, Axioms)
 
 #### 1. 语义蕴含
 
-```
+```text
 A ⊨ B 表示语义A蕴含语义B
 ```
 
 #### 2. 语义等价
 
-```
+```text
 A ≡ B 表示语义A与语义B等价
 ```
 
 #### 3. 语义组合
 
-```
+```text
 A ⊕ B 表示语义A与语义B的组合
 ```
 
